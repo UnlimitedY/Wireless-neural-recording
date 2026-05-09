@@ -1,0 +1,87 @@
+{
+  "master_console": {
+    "status_refresh_ms": 1000,
+    "camera_preview_poll_ms": 90,
+    "system_log_refresh_ms": 2000,
+    "timeline_refresh_ms": 5000,
+    "ui_diff_render_enabled": true
+  },
+  "detail_view": {
+    "status_poll_ms": 700,
+    "detail_target_fps": 12,
+    "detail_payload_poll_ms": 16,
+    "habits_cache_poll_ms": 2000,
+    "local_habits_cache_poll_ms": 10000,
+    "detail_render_min_interval_ms": 83
+  },
+  "mode0_power_estimator": {
+    "enabled": true,
+    "warn_retransmit_rate_percent": 20.0,
+    "calibration_rows": [
+      {
+        "tx_power_dbm": 0,
+        "retransmit_rate_percent": 2,
+        "mw": 17.0
+      },
+      {
+        "tx_power_dbm": 0,
+        "retransmit_rate_percent": 50,
+        "mw": 20.0
+      },
+      {
+        "tx_power_dbm": 4,
+        "retransmit_rate_percent": 20,
+        "mw": 70
+      }
+    ]
+  },
+  "slot_service": {
+    "command_poll_ms": 10,
+    "command_poll_max_commands_per_tick": 8,
+    "command_poll_budget_ms": 4.0,
+    "command_poll_scan_limit": 64,
+    "timer_stagger_step_ms": 170,
+    "runtime_cache_flush_ms": 1000,
+    "health_rollup_ms": 10000,
+    "health_check_ms": 1500,
+    "camera_preview_publish_ms": 120,
+    "camera_preview_max_width": 640,
+    "camera_preview_jpeg_quality": 72,
+    "camera_background_preview_fps": 1,
+    "camera_preview_active_fps": 8,
+    "camera_preview_recording_fps": 5,
+    "camera_preview_hidden_fps": 1,
+    "video_segment_max_seconds": 3600,
+    "preview_detection_min_interval_ms": 300,
+    "charging_guard_frame_max_width": 640,
+    "history_flush_ms": 5000,
+    "history_flush_max_tasks_per_tick": 2,
+    "defer_large_history_flush_while_sampling": true,
+    "status_cache_cap_history_tail": 20,
+    "detail_publish_min_interval_ms": 0,
+    "detail_attach_warmup_ms": 3000,
+    "local_chart_render_max_frames_per_tick": 1,
+    "local_chart_render_timer_ms": 16,
+    "detail_render_backpressure_ms": 20,
+    "detail_render_backpressure_s": 2,
+    "detail_read_gap_backpressure_ms": 15,
+    "detail_max_payload_bytes": 4000000,
+    "serial_read_gap_backpressure_s": 2.0,
+    "slot_scheduler_trace_max_entries": 80,
+    "slot_scheduler_trace_min_duration_ms": 1,
+    "slot_scheduler_trace_near_window_ms": 250,
+    "save_chunk_packets_mode0": 100,
+    "save_chunk_packets_mode3": 100,
+    "save_chunk_packets_mode3_raw": 100,
+    "telemetry_warn_thresholds": {
+      "runtime_cache_flush_ms": 120,
+      "detail_payload_bytes": 8000000,
+      "detail_payload_interval_ms": 800,
+      "camera_preview_payload_bytes": 600000,
+      "packet_decode_ms": 40,
+      "serial_read_gap_ms": 80,
+      "save_enqueue_ms": 20,
+      "save_writer_lag": 100
+    }
+  }
+}

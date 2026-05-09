@@ -1,0 +1,255 @@
+<svg width="1800" height="1200" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title desc" role="img">
+ <title id="title">DBRuleSwitch behavioral paradigm</title>
+ <desc id="desc">Paper-style summary figure showing protocol progression, block-switch cycle, and single-trial state structure for DBRuleSwitch.ino.</desc>
+ <defs>
+  <marker orient="auto-start-reverse" markerHeight="10" markerWidth="10" refY="5" refX="9" viewBox="0 0 10 10" id="arrowhead">
+   <path id="svg_1" fill="#344054" d="m0,0l10,5l-10,5l0,-10z"/>
+  </marker>
+  <marker orient="auto-start-reverse" markerHeight="8" markerWidth="8" refY="5" refX="9" viewBox="0 0 10 10" id="arrowheadSmall">
+   <path id="svg_2" fill="#475467" d="m0,0l10,5l-10,5l0,-10z"/>
+  </marker>
+ </defs>
+ <!-- Panel A -->
+ <!-- Protocol boxes -->
+ <!-- Panel B -->
+ <!-- Cycle nodes -->
+ <!-- Right side notes -->
+ <!-- Panel C -->
+ <!-- Lane labels -->
+ <!-- Shared lane structure for shaping -->
+ <!-- Task lane -->
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_3" fill="#ffffff" height="1200" width="1800" y="-0.72156" x="0" class="bg"/>
+  <text id="svg_4" fill="#16202a" font-weight="700" font-size="30px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="44" x="900" class="title">DBRuleSwitch behavioral paradigm</text>
+  <rect id="svg_5" ry="22" rx="22" stroke-width="2" stroke="#d5dbe3" fill="#ffffff" height="290" width="1720" y="60" x="40" class="panel"/>
+  <text id="svg_6" fill="#16202a" font-weight="700" font-size="28px" font-family="Helvetica, Arial, sans-serif" y="96" x="72" class="panel-label">A</text>
+  <text id="svg_7" fill="#16202a" font-weight="700" font-size="24px" font-family="Helvetica, Arial, sans-serif" y="96" x="118" class="panel-title">Protocol progression</text>
+  <g id="svg_8">
+   <rect id="svg_9" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#dbeafe" height="82" width="125" y="141.81818" x="80.45455" class="proto-box"/>
+   <text id="svg_10" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="174.81818" x="142.95455" class="proto-label">P0</text>
+   <text id="svg_11" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="194.81818" x="142.95455" class="proto-sub">rule 0</text>
+   <text id="svg_12" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="211.81818" x="142.95455" class="proto-sub">init 50 ms</text>
+   <rect id="svg_13" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#dbeafe" height="82" width="125" y="141.81818" x="230.45455" class="proto-box"/>
+   <text id="svg_14" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="174.81818" x="292.95455" class="proto-label">P1</text>
+   <text id="svg_15" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="194.81818" x="292.95455" class="proto-sub">rule 0</text>
+   <text id="svg_16" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="211.81818" x="292.95455" class="proto-sub">init 100 ms</text>
+   <rect id="svg_17" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#dbeafe" height="82" width="125" y="141.81818" x="380.45455" class="proto-box"/>
+   <text id="svg_18" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="174.81818" x="442.95455" class="proto-label">P2</text>
+   <text id="svg_19" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="194.81818" x="442.95455" class="proto-sub">rule 0</text>
+   <text id="svg_20" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="211.81818" x="442.95455" class="proto-sub">init 150 ms</text>
+   <rect id="svg_21" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#dbeafe" height="82" width="125" y="141.81818" x="530.45455" class="proto-box"/>
+   <text id="svg_22" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="174.81818" x="592.95455" class="proto-label">P3</text>
+   <text id="svg_23" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="194.81818" x="592.95455" class="proto-sub">rule 0</text>
+   <text id="svg_24" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="211.81818" x="592.95455" class="proto-sub">init 200 ms</text>
+   <rect id="svg_25" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#dbeafe" height="82" width="125" y="141.81818" x="680.45455" class="proto-box"/>
+   <text id="svg_26" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="174.81818" x="742.95455" class="proto-label">P4</text>
+   <text id="svg_27" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="194.81818" x="742.95455" class="proto-sub">rule 0</text>
+   <text id="svg_28" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="211.81818" x="742.95455" class="proto-sub">init 250 ms</text>
+   <rect id="svg_29" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#d1fae5" height="82" width="125" y="141.81818" x="830.45455" class="proto-box"/>
+   <text id="svg_30" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="174.81818" x="892.95455" class="proto-label">P5</text>
+   <text id="svg_31" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="194.81818" x="892.95455" class="proto-sub">location</text>
+   <text id="svg_32" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="211.81818" x="892.95455" class="proto-sub">timeout 3 s</text>
+   <rect id="svg_33" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#d1fae5" height="82" width="125" y="141.81818" x="980.45455" class="proto-box"/>
+   <text id="svg_34" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="174.81818" x="1042.95455" class="proto-label">P6</text>
+   <text id="svg_35" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="194.81818" x="1042.95455" class="proto-sub">retention</text>
+   <text id="svg_36" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="211.81818" x="1042.95455" class="proto-sub">timeout 8 s</text>
+   <rect id="svg_37" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#ffedd5" height="82" width="125" y="141.81818" x="1130.45455" class="proto-box"/>
+   <text id="svg_38" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="174.81818" x="1192.95455" class="proto-label">P7</text>
+   <text id="svg_39" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="194.81818" x="1192.95455" class="proto-sub">rule 1</text>
+   <text id="svg_40" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="211.81818" x="1192.95455" class="proto-sub">frequency</text>
+   <rect id="svg_41" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#ffedd5" height="82" width="125" y="141.81818" x="1280.45455" class="proto-box"/>
+   <text id="svg_42" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="174.81818" x="1342.95455" class="proto-label">P8</text>
+   <text id="svg_43" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="194.81818" x="1342.95455" class="proto-sub">retention</text>
+   <text id="svg_44" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="211.81818" x="1342.95455" class="proto-sub">timeout 8 s</text>
+   <rect id="svg_45" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#fee2e2" height="82" width="125" y="141.81818" x="1430.45455" class="proto-box"/>
+   <text id="svg_46" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="174.81818" x="1492.95455" class="proto-label">P9</text>
+   <text id="svg_47" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="194.81818" x="1492.95455" class="proto-sub">rule 2</text>
+   <text id="svg_48" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="211.81818" x="1492.95455" class="proto-sub">reversed freq</text>
+   <rect id="svg_49" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#fee2e2" height="82" width="125" y="141.81818" x="1580.45455" class="proto-box"/>
+   <text id="svg_50" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="174.81818" x="1642.95455" class="proto-label">P10</text>
+   <text id="svg_51" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="194.81818" x="1642.95455" class="proto-sub">retention</text>
+   <text id="svg_52" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="211.81818" x="1642.95455" class="proto-sub">timeout 8 s</text>
+   <!-- Arrows -->
+   <path id="svg_53" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m205.45455,182.81818l20,0" class="arrow"/>
+   <path id="svg_54" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m355.45455,182.81818l20,0" class="arrow"/>
+   <path id="svg_55" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m505.45455,182.81818l20,0" class="arrow"/>
+   <path id="svg_56" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m655.45455,182.81818l20,0" class="arrow"/>
+   <path id="svg_57" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m805.45455,182.81818l20,0" class="arrow"/>
+   <path id="svg_58" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m955.45455,182.81818l20,0" class="arrow"/>
+   <path id="svg_59" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m1105.45455,182.81818l20,0" class="arrow"/>
+   <path id="svg_60" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m1255.45455,182.81818l20,0" class="arrow"/>
+   <path id="svg_61" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m1405.45455,182.81818l20,0" class="arrow"/>
+   <path id="svg_62" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m1555.45455,182.81818l20,0" class="arrow"/>
+   <!-- Arrow labels -->
+   <text id="svg_63" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="133.81818" x="215.45455" class="tiny">&gt;100 valid trials</text>
+   <text id="svg_64" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="133.81818" x="365.45455" class="tiny">&gt;100</text>
+   <text id="svg_65" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="133.81818" x="515.45455" class="tiny">&gt;100</text>
+   <text id="svg_66" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="133.81818" x="665.45455" class="tiny">&gt;100</text>
+   <text id="svg_67" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="133.81818" x="815.45455" class="tiny">&gt;100</text>
+   <text id="svg_68" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="133.81818" x="965.45455" class="tiny">250 + side criterion</text>
+   <text id="svg_69" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="133.81818" x="1115.45455" class="tiny">500 + side criterion</text>
+   <text id="svg_70" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="133.81818" x="1265.45455" class="tiny">250 + side criterion</text>
+   <text id="svg_71" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="133.81818" x="1415.45455" class="tiny">500 + side criterion</text>
+   <text id="svg_72" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="133.81818" x="1565.45455" class="tiny">250 + side criterion</text>
+   <text id="svg_73" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="133.81818" x="1685.45455" class="tiny">500 + side criterion</text>
+   <!-- Group brackets -->
+   <path id="svg_74" fill="none" stroke-width="2.2" stroke="#98a2b3" d="m85.45455,257.81818l0,10l715,0l0,-10" class="bracket"/>
+   <text id="svg_75" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="293.81818" x="442.95455" class="small">Habituation / shaping under location rule</text>
+   <text id="svg_76" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="312.81818" x="442.95455" class="tiny">Increasing self-initiation period with high free-drop probability</text>
+   <path id="svg_77" fill="none" stroke-width="2.2" stroke="#98a2b3" d="m835.45455,257.81818l0,10l865,0l0,-10" class="bracket"/>
+   <text id="svg_78" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="293.81818" x="1267.95455" class="small">Discrimination and retention stages</text>
+   <text id="svg_79" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="312.81818" x="1267.95455" class="tiny">Easy-side criterion = last 50 easy trials on each side, performance &gt;= 75%</text>
+  </g>
+  <rect id="svg_80" ry="14" rx="14" stroke-width="1.6" stroke="#cbd5e1" fill="#f8fafc" height="76" width="285" y="272.54546" x="705.45445" class="note-box"/>
+  <text id="svg_81" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" y="294.81818" x="720.909" class="small">After P10 criterion:</text>
+  <text data-imt_insert_failed_reason="same_text" data-imt-p="1" id="svg_82" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" y="315.81818" x="720.909" class="tiny">BlockSwitchMode = 1</text>
+  <text id="svg_83" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" y="333.81818" x="720.909" class="tiny">PendingProtocolIndex = 5</text>
+  <rect stroke="#d5dbe3" id="svg_84" ry="22" rx="22" stroke-width="2" fill="#ffffff" height="274.32938" width="1711.86995" y="370" x="43.13042" class="panel"/>
+  <text id="svg_85" fill="#16202a" font-weight="700" font-size="28px" font-family="Helvetica, Arial, sans-serif" y="406" x="72" class="panel-label">B</text>
+  <text id="svg_86" fill="#16202a" font-weight="700" font-size="24px" font-family="Helvetica, Arial, sans-serif" y="406" x="118" class="panel-title">BlockSwitchMode cycle</text>
+  <rect id="svg_87" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#d1fae5" height="92" width="180" y="421.56589" x="252.28682" class="proto-box"/>
+  <text id="svg_88" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="456.56589" x="342.28682" class="proto-label">P5</text>
+  <text id="svg_89" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="478.56589" x="342.28682" class="proto-sub">rule 0</text>
+  <text id="svg_90" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="497.56589" x="342.28682" class="proto-sub">location block</text>
+  <rect id="svg_91" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#ffedd5" height="92" width="180" y="548" x="90" class="proto-box"/>
+  <text id="svg_92" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="583" x="180" class="proto-label">P7</text>
+  <text id="svg_93" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="605" x="180" class="proto-sub">rule 1</text>
+  <text id="svg_94" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="624" x="180" class="proto-sub">frequency block</text>
+  <rect id="svg_95" ry="16" rx="16" stroke-width="1.5" stroke="#344054" fill="#fee2e2" height="92" width="180" y="548" x="454.06641" class="proto-box"/>
+  <text id="svg_96" fill="#16202a" font-weight="700" font-size="22px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="583" x="544.06641" class="proto-label">P9</text>
+  <text id="svg_97" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="605" x="544.06641" class="proto-sub">rule 2</text>
+  <text id="svg_98" fill="#334155" font-size="14px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="624" x="544.06641" class="proto-sub">reversed-freq block</text>
+  <path stroke="#344054" id="svg_99" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" d="m245.01183,462.41222c-19.57643,42.82343 -47.30971,67.80377 -78.30573,82.07824" class="arrow"/>
+  <path id="svg_100" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m296.70765,594l135,0" class="arrow"/>
+  <path id="svg_101" marker-end="url(#arrowhead)" fill="none" stroke-width="3.2" stroke="#344054" d="m547.6124,548c-34,-52 -96,-82 -113,-82" class="arrow"/>
+  <text id="svg_102" fill="#BF7E96" font-size="15px" font-family="Helvetica, Arial, sans-serif" y="494.74523" x="89.95725" class="small">random first switch</text>
+  <text id="svg_103" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" y="574.83531" x="293.26298" class="small">criterion within block</text>
+  <text id="svg_104" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" y="446" x="458" class="small">return to rule 0 block</text>
+  <text id="svg_105" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" y="660" x="180" class="tiny">If the first switch goes to P9, the order becomes P5 -&gt; P9 -&gt; P7 -&gt; P5.</text>
+  <rect id="svg_106" ry="14" rx="14" stroke-width="1.6" stroke="#cbd5e1" fill="#f8fafc" height="175" width="980" y="394.64332" x="727.21565" class="note-box"/>
+  <text id="svg_107" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" y="427.36489" x="755.21565" class="small">Key transition rules</text>
+  <text data-imt-p="1" id="svg_108" fill="#334155" font-size="18px" font-family="Helvetica, Arial, sans-serif" y="457.36489" x="755.21565" class="body">1. Entry from P10 requires 500 valid trials and side easy performance criterion on both sides.
+   <FONT lang="zh-CN" class="notranslate immersive-translate-target-wrapper">
+    <BR/>
+    <FONT data-immersive-translate-translation-element-mark="1" class="notranslate immersive-translate-target-translation-theme-none immersive-translate-target-translation-block-wrapper-theme-none immersive-translate-target-translation-block-wrapper">
+     <FONT data-immersive-translate-translation-element-mark="1" class="notranslate immersive-translate-target-inner immersive-translate-target-translation-theme-none-inner">1. 从 P10 开始需要 500 次有效试验，并且双方都符合侧面易度标准。</FONT>
+    </FONT>
+   </FONT></text>
+  <text id="svg_109" fill="#334155" font-size="18px" font-family="Helvetica, Arial, sans-serif" y="487.36489" x="755.21565" class="body">2. Each block switch request is stored in PendingProtocolIndex and is not applied immediately.</text>
+  <text id="svg_110" fill="#334155" font-size="18px" font-family="Helvetica, Arial, sans-serif" y="516.64332" x="755.21565" class="body">3. The new protocol becomes active only at the next TrialBlockOnset (or manual switch).</text>
+  <text id="svg_111" fill="#334155" font-size="18px" font-family="Helvetica, Arial, sans-serif" y="546.64332" x="755.21565" class="body">4. During BlockSwitchMode, the next block starts only after InterBlockInterval, ready cue, and self-initiation.</text>
+  <rect stroke="#cbd5e1" id="svg_112" ry="14" rx="14" stroke-width="1.6" fill="#f8fafc" height="64" width="980.86799" y="576.08645" x="725.05094" class="note-box"/>
+  <text id="svg_113" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" y="602.08645" x="747.05095" class="tiny">Rule change bonus:</text>
+  <text id="svg_114" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" y="600.16107" x="871.1601" class="tiny">the first 50 correct trials after a rule change receive an extra cue and reward up to 2x (capped at 200 ms).</text>
+  <text id="svg_116" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" y="628.06279" x="755.76718" class="tiny">Sampling policy:</text>
+  <text id="svg_117" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" y="627.58053" x="870.496" class="tiny">BlockSwitchMode uses the full 5-level frequency set and congruency antibias based on PreviousRule versus current rule.</text>
+  <rect id="svg_118" ry="22" rx="22" stroke-width="2" stroke="#d5dbe3" fill="#ffffff" height="480" width="1720" y="680" x="40" class="panel"/>
+  <text id="svg_119" fill="#16202a" font-weight="700" font-size="28px" font-family="Helvetica, Arial, sans-serif" y="716" x="72" class="panel-label">C</text>
+  <text id="svg_120" fill="#16202a" font-weight="700" font-size="24px" font-family="Helvetica, Arial, sans-serif" y="716" x="118" class="panel-title">Single-trial state structure</text>
+  <rect stroke="#cbd5e1" id="svg_121" ry="14" rx="14" stroke-width="1.6" fill="#f8fafc" height="58" width="1624.61787" y="736" x="82" class="note-box"/>
+  <text id="svg_122" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" y="760" x="106" class="tiny">First trial of each block: TrialBlockDelay -&gt; NeuralReader -&gt; CapReinit -&gt; TrialStart. Within-block trials start directly from TrialBlockDelay -&gt; TrialStart.</text>
+  <text id="svg_123" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" y="779" x="106" class="tiny">Time alignment pulse is emitted at TrialStart; free drop is optional and depends on protocol stage, block onset, and error-history reward flags.</text>
+  <text id="svg_124" fill="#16202a" font-weight="700" font-size="20px" font-family="Helvetica, Arial, sans-serif" y="819.83739" x="63.23577" class="lane-label">Shaping (P0-P4)</text>
+  <text id="svg_125" fill="#16202a" font-weight="700" font-size="20px" font-family="Helvetica, Arial, sans-serif" y="934.87804" x="55.9187" class="lane-label">Task / retention / block switch (P5-P10)</text>
+  <g id="svg_126">
+   <rect id="svg_127" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#e2e8f0" height="58" width="160" y="838.00813" x="106.58772" class="pill"/>
+   <text id="svg_128" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="863.00813" x="186.58772" class="small">TrialBlockDelay</text>
+   <text id="svg_129" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="882.00813" x="186.58772" class="tiny">50-250 ms</text>
+   <rect id="svg_130" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#dbeafe" height="58" width="110" y="838.00813" x="291.58772" class="pill"/>
+   <text id="svg_131" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="863.00813" x="346.58772" class="small">TrialStart</text>
+   <text id="svg_132" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="882.00813" x="346.58772" class="tiny">18 ms</text>
+   <rect id="svg_133" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#dbeafe" height="58" width="120" y="838.00813" x="426.58772" class="pill"/>
+   <text id="svg_134" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="863.00813" x="486.58772" class="small">PreCueDelay</text>
+   <text id="svg_135" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="882.00813" x="486.58772" class="tiny">44 ms</text>
+   <text id="svg_138" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="856.00813" x="625.58772" class="tiny">free drop</text>
+   <rect id="svg_139" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#dbeafe" height="58" width="128" y="838.00813" x="571.58772" class="pill"/>
+   <text id="svg_140" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="863.00813" x="635.58772" class="small">SampleDelay</text>
+   <text id="svg_141" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="882.00813" x="635.58772" class="tiny">250 ms</text>
+   <rect id="svg_142" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#bfdbfe" height="58" width="162" y="838.00813" x="724.58772" class="pill"/>
+   <text id="svg_143" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="863.00813" x="805.58772" class="small">SampleCue</text>
+   <text id="svg_144" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="882.00813" x="805.58772" class="tiny">up to 1000 ms</text>
+   <rect id="svg_145" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#bfdbfe" height="58" width="150" y="838.00813" x="911.58772" class="pill"/>
+   <text id="svg_146" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="863.00813" x="986.58772" class="small">AnswerPeriod</text>
+   <text id="svg_147" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="882.00813" x="986.58772" class="tiny">up to 10 s</text>
+   <rect id="svg_148" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#d1fae5" height="58" width="120" y="838.00813" x="1086.58772" class="pill"/>
+   <text id="svg_149" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="863.00813" x="1146.58772" class="small">Reward</text>
+   <text id="svg_150" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="882.00813" x="1146.58772" class="tiny">left/right water</text>
+   <rect id="svg_151" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#d1fae5" height="58" width="140" y="838.00813" x="1231.58772" class="pill"/>
+   <text id="svg_152" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="863.00813" x="1301.58772" class="small">Consumption</text>
+   <text id="svg_153" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="882.00813" x="1301.58772" class="tiny">750 ms</text>
+   <rect id="svg_154" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#e2e8f0" height="58" width="118" y="838.00813" x="1396.58772" class="pill"/>
+   <text id="svg_155" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="863.00813" x="1455.58772" class="small">Fixed ITI</text>
+   <text id="svg_156" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="882.00813" x="1455.58772" class="tiny">1000 ms</text>
+   <rect id="svg_157" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#e2e8f0" height="58" width="120" y="838.00813" x="1539.58772" class="pill"/>
+   <text id="svg_158" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="863.00813" x="1599.58772" class="small">TrialEnd</text>
+   <text id="svg_159" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="882.00813" x="1599.58772" class="tiny">block boundary</text>
+   <path id="svg_160" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m266.58772,867.00813l20,0" class="arrow-thin"/>
+   <path id="svg_161" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m401.58772,867.00813l20,0" class="arrow-thin"/>
+   <path id="svg_162" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m546.58772,867.00813l20,0" class="arrow-thin"/>
+   <path id="svg_163" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m699.58772,867.00813l20,0" class="arrow-thin"/>
+   <path id="svg_164" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m886.58772,867.00813l20,0" class="arrow-thin"/>
+   <path id="svg_165" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m1061.58772,867.00813l20,0" class="arrow-thin"/>
+   <path id="svg_166" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m1206.58772,867.00813l20,0" class="arrow-thin"/>
+   <path id="svg_167" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m1371.58772,867.00813l20,0" class="arrow-thin"/>
+   <path id="svg_168" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m1514.58772,867.00813l20,0" class="arrow-thin"/>
+   <text id="svg_169" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="916.00813" x="805.58772" class="tiny">Wrong licks during shaping are ignored or loop within SampleCue.</text>
+   <text id="svg_170" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="915.6537" x="1147.98012" class="tiny">No response goes directly to TrialEnd.</text>
+  </g>
+  <g id="svg_171">
+   <rect id="svg_172" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#e2e8f0" height="58" width="160" y="1000.20325" x="97.88615" class="pill"/>
+   <text id="svg_173" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1025.20325" x="177.88615" class="small">TrialBlockDelay</text>
+   <text id="svg_174" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1044.20325" x="177.88615" class="tiny">250 ms</text>
+   <rect id="svg_175" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#dbeafe" height="58" width="110" y="1000.20325" x="282.88615" class="pill"/>
+   <text id="svg_176" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1025.20325" x="337.88615" class="small">TrialStart</text>
+   <text id="svg_177" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1044.20325" x="337.88615" class="tiny">18 ms</text>
+   <rect id="svg_178" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#dbeafe" height="58" width="120" y="1000.20325" x="417.88615" class="pill"/>
+   <text id="svg_179" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1025.20325" x="477.88615" class="small">PreCueDelay</text>
+   <text id="svg_180" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1044.20325" x="477.88615" class="tiny">44 ms</text>
+   <text id="svg_183" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1018.20325" x="616.88615" class="tiny">free drop</text>
+   <rect id="svg_184" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#dbeafe" height="58" width="128" y="1000.20325" x="562.88615" class="pill"/>
+   <text id="svg_185" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1025.20325" x="626.88615" class="small">SampleDelay</text>
+   <text id="svg_186" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1044.20325" x="626.88615" class="tiny">250 ms</text>
+   <rect id="svg_187" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#bfdbfe" height="58" width="162" y="1000.20325" x="715.88615" class="pill"/>
+   <text id="svg_188" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1025.20325" x="796.88615" class="small">SampleCue</text>
+   <text id="svg_189" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1044.20325" x="796.88615" class="tiny">up to 1000 ms</text>
+   <rect id="svg_190" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#bfdbfe" height="58" width="150" y="1000.20325" x="902.88615" class="pill"/>
+   <text id="svg_191" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1025.20325" x="977.88615" class="small">AnswerPeriod</text>
+   <text id="svg_192" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1044.20325" x="977.88615" class="tiny">up to 5-10 s</text>
+   <rect id="svg_193" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#d1fae5" height="58" width="120" y="958.20325" x="1077.88615" class="pill"/>
+   <text id="svg_194" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="983.20325" x="1137.88615" class="small">Reward</text>
+   <text id="svg_195" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1002.20325" x="1137.88615" class="tiny">correct lick</text>
+   <rect id="svg_196" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#d1fae5" height="58" width="120" y="958.20325" x="1222.88615" class="pill"/>
+   <text id="svg_197" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="983.20325" x="1282.88615" class="small">StopLicking</text>
+   <text id="svg_198" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1002.20325" x="1282.88615" class="tiny">post-reward</text>
+   <rect id="svg_199" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#fee2e2" height="58" width="120" y="1042.20325" x="1077.88615" class="pill"/>
+   <text id="svg_200" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1067.20325" x="1137.88615" class="small">ErrorTrial</text>
+   <text id="svg_201" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1086.20325" x="1137.88615" class="tiny">wrong lick</text>
+   <rect id="svg_202" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#fee2e2" height="58" width="120" y="1042.20325" x="1222.88615" class="pill"/>
+   <text id="svg_203" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1067.20325" x="1282.88615" class="small">TimeOut</text>
+   <text id="svg_204" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1086.20325" x="1282.88615" class="tiny">3-8 s + extra</text>
+   <rect id="svg_205" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#e2e8f0" height="58" width="118" y="1000.20325" x="1387.88615" class="pill"/>
+   <text id="svg_206" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1025.20325" x="1446.88615" class="small">Fixed ITI</text>
+   <text id="svg_207" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1044.20325" x="1446.88615" class="tiny">1000 ms</text>
+   <rect id="svg_208" stroke-width="1.4" stroke="#334155" ry="12" rx="12" fill="#e2e8f0" height="58" width="120" y="1000.20325" x="1530.88615" class="pill"/>
+   <text id="svg_209" fill="#556070" font-size="15px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1025.20325" x="1590.88615" class="small">TrialEnd</text>
+   <text id="svg_210" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1044.20325" x="1590.88615" class="tiny">block boundary</text>
+   <path id="svg_211" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m257.88615,1029.20325l20,0" class="arrow-thin"/>
+   <path id="svg_212" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m392.88615,1029.20325l20,0" class="arrow-thin"/>
+   <path id="svg_213" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m537.88615,1029.20325l20,0" class="arrow-thin"/>
+   <path id="svg_214" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m690.88615,1029.20325l20,0" class="arrow-thin"/>
+   <path id="svg_215" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m877.88615,1029.20325l20,0" class="arrow-thin"/>
+   <path id="svg_216" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m1052.88615,1029.20325c13,-19 20,-36 25,-42" class="arrow-thin"/>
+   <path id="svg_217" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m1052.88615,1029.20325c13,18 20,29 25,37" class="arrow-thin"/>
+   <path id="svg_218" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m1197.88615,987.20325l20,0" class="arrow-thin"/>
+   <path id="svg_219" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m1342.88615,987.20325c25,0 33,25 45,34" class="arrow-thin"/>
+   <path id="svg_220" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m1197.88615,1071.20325l20,0" class="arrow-thin"/>
+   <path id="svg_221" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m1342.88615,1071.20325c25,0 33,-25 45,-34" class="arrow-thin"/>
+   <path id="svg_222" marker-end="url(#arrowheadSmall)" fill="none" stroke-width="2.2" stroke="#475467" d="m1505.88615,1029.20325l20,0" class="arrow-thin"/>
+   <text id="svg_223" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="950.49439" x="1211.93678" class="tiny">correct branch</text>
+   <text id="svg_224" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1119.40579" x="1212.56969" class="tiny">incorrect branch</text>
+   <text id="svg_225" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" y="1106.74756" x="879.15199" class="tiny">No response goes directly to TrialEnd.</text>
+  </g>
+  <text id="svg_226" fill="#687385" font-size="13px" font-family="Helvetica, Arial, sans-serif" y="1147.31707" x="76.17886" class="tiny">Rules: rule 0 = location; rule 1 = frequency; rule 2 = reversed frequency. Valid trials for protocol progression include correct and error, but not no-response or early-lick trials.</text>
+ </g>
+</svg>

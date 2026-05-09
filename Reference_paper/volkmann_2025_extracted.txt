@@ -1,0 +1,911 @@
+             Molecular Psychiatry                                                                                                                              www.nature.com/mp
+            ARTICLE                  OPEN
+            Integrity of the circadian clock determines regularity of high-
+            frequency and diurnal LFP rhythms within and between
+            brain areas
+                                   1,2,5,6                         1,6                               1                     3               2                1                        3
+            Paul Volkmann                  , Annika E. I. Geiger       , Anisja Hühne-Landgraf , Nina Miljanovic , Jessica Bly , Tobias Engl , Heidrun Potschka ,
+            Moritz J. Rossner         2,4 and Dominic Landgraf            1
+            ©The Author(s) 2024
+                Circadian clocks control most physiological processes of many species. We speciﬁcally wanted to investigate the inuence of
+                environmental and endogenous rhythms and their interplay on electrophysiological dynamics of neuronal populations. Therefore,
+                                                                                                                                                        −/−
+                we measured local ﬁeld potential (LFP) time series in wild-type and Cryptochrome 1 and 2 deﬁcient (Cry1/2                                   ) mice in the
+                suprachiasmatic nucleus and the nucleus accumbens under regular light conditions and constant darkness. Using reﬁned
+                descriptive and statistical analyses, we systematically proﬁled LFP time series activity. We show that both environmental and
+                endogenous rhythms strongly inuence the rhythmicity of LFP signals and their frequency components, but also shape neuronal
+  890();,:      patterns on much smaller time scales, as neuronal activity in Cry1/2−/− mice is signiﬁcantly less regular but at each time more
+                synchronous within and between brain areas than in wild-type mice. These results show that functional circadian rhythms are
+  1234567       integral for both circadian and non-circadian coordination of neuronal ensemble dynamics.
+                Molecular Psychiatry (2025) 30:1859–1875; https://doi.org/10.1038/s41380-024-02795-z
+            INTRODUCTION                                                                             Fundamental elements of this system in mammals are CLOCK
+            Many medical conditions, most notably psychiatric disorders, are                         and BMAL1 [11] that drive transcription of two other sets of
+            based on dysfunctions of the brain and its numerous areas and                            genes, Period 1, 2,and3 (Per1/2/3)andCryptochrome 1 and 2
+            structures that are interconnected and collectively generate and                         (Cry1/2)[12], yet more regulatory elements are involved. The
+            control all behavior and multiple physiological processes [1].                           mammalian hypothalamus is the site of the suprachiasmatic
+            Optimal functioning of processes within and communication                                nucleus (SCN), which is considered the main pacemaker of the
+            between different brain regions requires temporal coordination                           circadian system and the most important interface between
+            [2]. This includes adaptation to the environment and its recurring                       rhythmic light signals from the environment and circadian clocks
+            changes over the 24-hour day to which an organism is exposed                             in the body [13]. The neuronal activity of the SCN is rhythmic and
+            [3].  Organisms can react spontaneously to the changes in                                transmits its own rhythmicity to other tissues, including other
+            environmental conditions and adapt their behavior and bodily                             brain regions, whose own neuronal activity in turn oscillates in a
+            functions to them repeatedly. However, in order to anticipate the                        24-h rhythm [14, 15].
+            daily recurring changes and not just spontaneously tune behavior                            The electrical activity of the brain can be observed at different
+            and body functions to them, many have evolved endogenous                                 micro-, meso-, and macroscales, e.g., by electrophysiological
+            systems to generate autonomous 24-h oscillations that are                                recordings on the single cell level or electroencephalograms able
+            synchronized to environmental rhythms - so-called circadian                              to cover different brain areas [16]. Previous studies have been able
+            (from Latin circa, around, and dies, day) clocks [4–7]. Endogenous                       to identify an interplay between single neuron dynamics [17–21]
+            clocks increase or decrease the activity of virtually all physiolo-                      or multi-unit activity [14, 22] and the circadian clock. In contrast,
+            gical processes, depending on requirements that prevail during a                         local ﬁeld potentials (LFP), known to capture the summation of
+            given period of the day. Among others, these processes are                               roughly 1,000 neurons in cortical recordings in the form of
+            known to include gene expression, metabolism, cardiovascular                             extracellular potential changes as ensemble activity [23, 24], have
+            function, the immune system, neuronal activity, and behavior                             proven to be a valuable measure of activity levels within many
+            [8–10]. At a cellular level, rhythmicity emerges from the molecular                      different    subregions.      Circadian     LFP oscillations        have been
+            interplay of so-called core clock genes and proteins that form a                         reported to occur in the SCN [25, 26] as well as in the cerebellum
+            transcription-translation         feedback      loop,    in   short     TTL    [4].      and striatum [27].
+            1                                                                                                                                                                2
+             Circadian Biology Group, Section of Molecular Neurobiology, Department of Psychiatry and Psychotherapy, LMU University Hospital, 80336 Munich, Germany. Molecular
+                                                                                                                                  3
+            Neurobiology Group, Department of Psychiatry and Psychotherapy, LMU University Hospital, 80336 Munich, Germany. Institute of Pharmacology, Toxicology, and Pharmacy,
+                                           4                                                   5
+            LMU, 80539 Munich, Germany. Systasy Bioscience GmbH, 81669 Munich, Germany. Present address: Centre for Neural Circuits and Behaviour, University of Oxford, OX1 3SR,
+                        6                                                                      
+            Oxford, UK. These authors contributed equally: Paul Volkmann, Annika E. I. Geiger.   email: paul.volkmann@dpag.ox.ac.uk
+            Received: 11 October 2023 Revised: 10 October 2024 Accepted: 14 October 2024
+            Published online: 29 October 2024
+                                                                                                                                                    P. Volkmann et al.
+               1860
+                                   Manybrainareasharbortheirownautonomouscircadianclocks                                                                                                               sine wave amplitudes), an intended power of 0.9, and an error probability
+                             [28]. In addition, multiple structures of the brain receive direct or                                                                                                     of 0.05, yielding a required sample size of at least 5 animals.
+                             indirect signals from the retina about whether it is light or dark in
+                             the environment [29]. However, it is not known to what extent 24-                                                                                                         Implantation of transmitter and LFP probes
+                             h rhythms of electrical activity are driven either endogenously or                                                                                                        For recordings, we used the Data Sciences International (DSI, USA)
+                             exogenously, and to what extent rhythms from different brain                                                                                                              telemetry system. The transmitter HD-X02 was prepared as described
+                             regions, e.g., those of the SCN and subordinate brain regions, are                                                                                                        previously [32]. For creating electrodes, we used a single full hard PFA
+                             interrelated                     [30].          Furthermore, it remains unclear whether                                                                                   coated stainless steel wire (Science Products GmbH, Germany) with a
+                             endogenous circadian rhythms and exogenous light rhythms                                                                                                                  diameter of 102µm for both SCN and NAc [33, 34] and a calculated
+                             and their interplay, beyond the imposition of 24-h rhythms,                                                                                                               impedancearound150kΩ.Thetransmitterimplantationwascarriedoutas
+                             inuence integrity of high-frequency brain electrical activity. We                                                                                                        described previously [35, 36]. Briey, animals were allowed to habituate in
+                             hypothesize that these factors contribute to the interaction of                                                                                                           the experimental room for 30min before start of the surgery. Mice were
+                             neuronal signals between brain regions and suggest that the                                                                                                               anesthetized by injecting an intraperitoneal mix of Midazolam (5mg/kg),
+                                                                                                                                                                                                       Medetomidin (0.5mg/kg), and Fentanyl (0.05mg/kg). Depth of anesthesia
+                             presence of endogenous and exogenous diurnal oscillations not                                                                                                             was secured throughout surgery by checking the toe pinch reex, body
+                             only determines 24-h periodic overall activity levels, but also                                                                                                           temperature, and respiratory rate. Eyes were covered with Dexpanthenol
+                             inuences non-circadian patterns and the composition of                                                                                                                   (Bepanthen, Bayer, Germany) to avoid dehydration. To expose the surgical
+                             neuronal activity within and between brain regions.                                                                                                                       ﬁeld, the head was shaved down to the left side of the back. Mice were
+                                   To approach these assumptions in a hypothesis testing study,                                                                                                        then ﬁxed in a stereotactic frame (Stoelting, Germany). Negative leads
+                             we examined LFP signals with implanted telemetric small-sized                                                                                                             were wrapped around a screw (slotted cheese head machine screws BN
+                             electrodes from two brain regions of freely behaving mice with                                                                                                            650, Bossard, Germany) that was ﬁxed on the skull above the cerebellum.
+                             four combinations of different genetic and light conditions that                                                                                                          Electrodes were inserted into the left SCN and the right NAc with leads
+                             decipher the respective inuence of endogenous and exogenous                                                                                                              attached. More speciﬁcally, they were implanted at −0.35mm AP;
+                                                                                                                                                                                                       0.20mmML; −5.60mm VD for SCN and +1.94mm AP; −0.60mmML;
+                             rhythms and their interplay on electrical brain activity. As brain                                                                                                        −4.70mm VD for the NAc in accordance with a reference atlas [37].
+                             regions, we chose the SCN as the core pacemaker of the circadian                                                                                                          Paladur (Kulzer, Germany) was used to form an isolating coating around
+                             system and the nucleus accumbens (NAc), a region with SCN-                                                                                                                the electrodes, leads, and screw. The skin was then laid around the formed
+                             independent rhythmicity [28] and only indirect connections to                                                                                                             hat and closed with the appropriate amount of suture. To reverse
+                             the SCN [31]. To test the mere inuence of endogenous clocks on                                                                                                           anesthesia at the end of surgery, mice were injected with a mix of
+                             electrical activity in these two regions, we compared LFP signals                                                                                                         Atipamezole (2.5mg/kg), Flumazenil (0.5mg/kg), and Naloxone (1.2mg/
+                             from wild-type and endogenously arrhythmic Cry1/2−/− mice                                                                                                                 kg) intraperitoneally. Mice were also given Carprofen (5mg/kg) subcuta-
+                             under constant darkness (DD). To examine exogenous inuences,                                                                                                             neously on the ﬁrst, second, and third postoperative day.
+                             we subjected the same Cry1/2−/− mice to 12:12 light-dark
+                             (LD)           conditions.                     Finally,             to        investigate                     the interaction of                                          LFP recordings
+                             endogenous and exogenous inuences, we used the same wild-                                                                                                                After surgery, animals were allowed proper time to recover (minimum of
+                             type mice in a 12:12 LD regimen as a fourth condition. Our results                                                                                                        two weeks) in individual home cages. For recordings, mice were
+                             show that both endogenous and exogenous rhythms as well as                                                                                                                transferred to metabolic cages (TSE Systems, Germany) in which we also
+                             their           interplay inuence the 24-h oscillation of concerted                                                                                                      recorded locomotor activity by means of infrared beams with a 15-minute
+                                                                                                                                                                                                       time resolution for one animal of each genotype (W5 and C5). The cages
+                             electrical                 activity              in       both brain regions and furthermore                                                                              were placed on top of a receiver plate (DSI) catching the live signal of
+                             determine regularity and complexity of LFPs within and                                                                                                                    implanted transmitters. LFP recordings were obtained at a sampling rate of
+                             between them.                                                                                                                                                             500Hz using Ponemah software (DSI). After 5 days of habituation,
+                                                                                                                                                                                                       recordings under LD condition took place for three days. This was
+                                                                                                                                                                                                       followed by a 5-day period of habituation to DD conditions and then
+                             METHODS                                                                                                                                                                   recording under DD for three days.
+                             Ethics approval
+                             All animal experiments were carried out in accordance with institutional                                                                                                  Imaging of brain slices
+                             guidelines and regulations approved by the Regierungspräsidium Ober-                                                                                                      After deeply anesthetizing mice with 4% isourane and perfusion by
+                             bayern, ROB Munich, Germany under the license ROB-55.2-2532.Vet_02-16-                                                                                                    intracardial injection of 1× phosphate-buffered saline and then 4%
+                             179. All further study procedures were performed in accordance with                                                                                                       paraformaldehyde (PFA), the entire brain was removed and stored at
+                             institutional guidelines and safety regulations.                                                                                                                          4°C in 4% PFA for 24h, then in a 15% sucrose solution for 24h, afterwards
+                                                                                                                                                                                                       in a 30% sucrose solution for three days or until it sank, and ﬁnally frozen
+                             Animals                                                                                                                                                                   at −80°C. For imaging, brains were serially sliced at 40µm using a cryostat
+                                           −/−               Luc                                                                                                                                       microtome (Leica Biosystems, Germany). Brain slices were stained with
+                             Cry1/2               ; Per2             mice with C57BL/6J background were kindly provided                                                                                hematoxylin-eosin. The correct location of probes was conﬁrmed
+                             byMichael Hastings, MRC Laboratory of Molecular Biology, Cambridge, UK.                                                                                                   microscopically.
+                             Mice were backcrossed to C57BL/6J background mice from our stock
+                             every 5 to 10 generations. Pairing of littermates was carried out to obtain
+                                                                                                                                                            −/−                Luc
+                             two experimental groups of ﬁve male animals each: Cry1/2                                                                              ; Per2             (in              Data processing
+                                                                                                                                                                         −/−
+                             this study referred to as Cryptochrome 1 and 2 deﬁcient / Cry1/2                                                                                   ) and                  RawLFPrecordings werehigh-passﬁltered at 0.5Hz and visually inspected
+                                           +/+                Luc
+                             Cry1/2               ;  Per2            (in this study referred to as wild-type) mice. In total,                                                                          for artifacts, both with and without the help of the automatic artifact
+                             seven animals per group ran through all experiments to ﬁnally get ﬁve of                                                                                                  detection of the NeuroScore software (DSI). No animal displayed more than
+                             these animals per group (W1-W5 and C1-C5), whose recording data were                                                                                                      30 artifacts in the analyzed time window, all artifacts exceeding the
+                                                                                                                                                                                                                                                                                                                                                              −/−
+                             used for statistical analyses. Two animals per group had to be excluded                                                                                                   threshold of 1mV were removed. Two wild-type and two Cry1/2
+                             (see below). Surgery and recordings were conducted between the age of 8                                                                                                   animals were excluded on pre-established criteria after inspecting the raw
+                             to 14 weeks. Mice were group-housed (maximum of six animals) in                                                                                                           LFPtraces and displaying them as spectrogram before any further analyses
+                             ventilated cages (Tecniplast S.p.A, Italy) before and kept separated after                                                                                                took place as they showed at LFP signals without distinct frequency
+                             surgery to avoid injuries. Food and water were provided ad libitum. Mice                                                                                                  content. Subsequent histological examination showed hemorrhage around
+                             were maintained under a 12-hour light:12-hour dark cycle (LD), with lights                                                                                                the tip of the electrodes for the excluded animals which could explain the
+                             being switched on at 7AM. After recording under LD conditions, mice were                                                                                                  lack of signal, and which was not present in included animals.
+                             kept under constant darkness (DD). The assignment of animals was not                                                                                                           Traces were then decomposed into their frequency components by fast
+                             randomized; experimenters were not blinded to animal’s genotype.                                                                                                          Fourier transformation [38] using NeuroScore. More speciﬁcally, we
+                             Minimal number of animals necessary was determined by power analyses,                                                                                                     obtained the spectral power of frequency bands for each delta
+                             aimingat aneffect size > 2 (in order to primarily detect differences in ﬁtted                                                                                             (0.5–4Hz), theta1 (4–6Hz), theta2 (6–8Hz), alpha1 (8–11Hz), alpha2
+                                                                                                                                                                                                                                                                         Molecular Psychiatry (2025) 30:1859–1875
+                                                                                    P. Volkmann et al.
+                                                                                                                                                         1861
+          (11–14Hz), sigma (14–16Hz), beta1 (16–18Hz), beta2 (18–32Hz), gamma1      resolution but used 1-second bins for cross- and autocorrelation to capture
+          (32–48Hz), and gamma2 (48–70Hz) within 1s bins (for cross- and            their relevant dynamical time windows.
+          autocorrelation) or 4s bins (for all other analyses of spectral data),      High-pass ﬁltered raw LFP traces were used for a limited number of
+          respectively. We obtained data in 4-second bins as this provided a good   analyses: at their sampling rate of 500Hz (for displaying raw LFP traces,
+          compromise between frequency resolution of spectral power and time        continuous wavelet transforms, and coherence measurement), within
+          Molecular Psychiatry (2025) 30:1859–1875
+                                                                                    P. Volkmann et al.
+         1862
+                 Fig. 1   Disruptions of endogenous and environmental circadian rhythms increase fragmentation and intensity of LFP activity over 24h.
+                 AIndividual spectrograms of z-scored 24-hour SCN frequency activity of all animals. Color graded values refer to standard deviation. For W5
+                 and C5, their corresponding locomotor activity levels are depicted. For C1, exemplary 3.6s raw LFP traces under LD showing alpha1 (left,
+                 ZT18.1555) and gamma2 (right, ZT17.5065) oscillatory events in the SCN are displayed. The top trace is the raw signal, the middle trace the
+                 signal ltered at 8-11Hz (alpha1) or 48-70Hz (gamma2), respectively. The corresponding spectrograms are at the bottom. B Example 24-h
+                 block spectrograms (SCN under LD). Grey blocks at the beginning are a calculation artifact of the rolling average (the rst 250 bins).
+                 C Comparison of number of blocks counted from block spectrograms. D 24-h time series of LFP amplitude with mean±standard deviation
+                 within one-hour bins. E Area under the curve of the fast Fourier transformed LFP signal. Boxplots show median and whiskers indicating 1.5-
+                 fold distance of inter-quartile range (IQR) to the upper/lower quartile. White and black bars represent light and dark, respectively. Asterisks in
+                 (C) and (E) refer to Type II ANOVA. * p<0.05, ** p<0.01, *** p<0.001; n.s. = not signicant. a.u. = arbitrary unit.
+                 1-second bins (for cross- and autocorrelation), and within 4-second bins                       Fig. S3A. We then calculated the percentiles of power within individual
+                 (for all other analyses).                                                                      frequencies of analyzed traces and deﬁned events as peaks that exceed
+                    After data was processed as described, the complete recording period                                th percentile in the time-frequency plane within their frequency [46].
+                                                                                                                the 98
+                 was displayed as spectrogram (see below) and the ﬁrst undisturbed and                          From this data, we derived the frequency span of neural oscillatory events
+                 uninterrupted 24-hour period starting at 7AM corresponding for both brain                      in the identiﬁed frequencies and displayed it in Fig. S3B as histogram. We
+                 regions was used for each light regimen for every individual animal for                        then used ﬁltered LFP traces (8–11Hz for alpha1, 48–70Hz for gamma2) to
+                 consecutive analyses (except for Lomb-Scargle analyses for which we used                       detect local maxima of neural oscillatory events for both regions in an
+                 theentire length of each light regimen’s three consecutive recording days).                    exampleanimalandidentiﬁedtimeswithhighdensityofsuchmaxima.We
+                                                                                                                used this information to depict exemplary traces of neural oscillatory
+                 Statistical analyses                                                                           events in Fig. 1A and S3C. We further quantiﬁed event duration and
+                 All analyses of processed data presented in this study were carried out                        interval and displayed them as density plots in Fig. S3D. We also quantiﬁed
+                 using R version 4.2.2 [39] and RStudio (RStudio, USA). Details of statistical                  event power as fraction of the frequency speciﬁc median and again
+                 tests are indicated in the ﬁgure legends and can be found in the Suppl.                        displayed them as density plots Fig. S3E based on peaks that exceed the
+                                                                                                                   th
+                 File. All analyses included the same n=5 animals per genotype, all animals                     98 percentile.
+                 were included in every analysis. All outcome measures of our study are                         Z-scoring.    Data for 24h spectral band spectrograms in Fig. 1A and S4A,
+                 reported. Secondary measures describing properties of time series derived                      24h relative LFP amplitude time series in Fig. S4B, sine wave analyses in
+                 from our analyses (such as, for example, block count, sine wave amplitude,                     Fig. 2A–D and S5A–D, correlation count plots in Fig. 3D and S6C, slope
+                 or correlation values – see below) which met normality (as determined by                       analysis in Fig. 4C, D and S8B, and mean frequency time series in Fig. S4E
+                 Q-Q plots) were compared using Type II ANOVA (or unpaired student’st-                          were z-scored for each individual frequency band or LFP time series for
+                 test, respectively). When normality was not assumed (e.g., deviation of                        every animal individually (by subtraction of mean and division by standard
+                 peaks from 24h where data is necessarily right-skewed) or met (e.g.,                           deviation). This was done to compare phenomena beyond absolute values
+                 Euclidean distance), a general multivariate regression model (or Wilcoxon                      of either spectral power or LFP amplitude, but instead relative to activity
+                 rank-sum test, respectively) was used. Sample size was identical for each                      levels throughout the 24-hour day.
+                 group compared in every test. Therefore, variance of groups was not                               For spectrogram block analysis that is displayed and quantiﬁed in
+                 compared as the parametric tests used are robust against differences in                        Fig. 1B, C and S4C, after z-scoring (leading to the mean being 0) all values
+                 variances in this case [40]. Differences were considered signiﬁcant when                       above 0 were equated to 1000, all values below 0 to −1000. Using R
+                 p<0.05.                                                                                        function rollmeanr of the zoo package [48], the rolling average was
+                    Where single representative animals are shown, we always display the                        calculated over a window of 250 values. Afterwards, again all values above
+                                                        −/− (C1) animal. The only exceptions are
+                 same wild-type (W1) and Cry1/2                                                                 0 were equated to 1000, all values below 0 to −1000. This was done in
+                 the raw LFP traces in Fig. S2A–C to show our recordings are not                                order to quantitatively enhance the contrast between relatively high and
+                 contaminated by locomotor activity as we only recorded metabolic cage                          low power events and reproduce the impression of activity blocks visually
+                 activity data for animals W5 and C5, as well as the time-frequency plane in                    observed from the spectrograms that we were then able to quantify.
+                 Fig. S3A. The experimenter was not blinded to the groups during data                           Colors correspond to spectrograms as depicted in Fig. 1A. R’s base function
+                 analysis.                                                                                      rle was then used to count the number of blocks per frequency band and
+                 Plotting.   Most plots were created using the R function ggplot from the                       animal.
+                 ggplot2 package [41]. For spectrograms, LFP relative amplitude series, and                     Sine wave t.      For sine wave ﬁt in Fig. 2A and S5A, B, a linear ﬁt to the
+                 matrix generation, the R function pheatmap from the pheatmap package                           pooled data of each genotype within the same brain area and light
+                 [42] was used. Sine waves, cross-/autocorrelation, and continuous wavelet                      regimen was carried out using:
+                 transform were plotted using the plot function of the graphics package.
+                 LFP analyses.      Spectrograms for exemplary raw LFP traces shown in                          Asinð2=24ZeitgebertimeÞþcosð2=24ZeitgebertimeÞ
+                 Fig. 1A, S2A–C, and S3C were created using R function specgram from the                        with A being either a frequency band’s spectral or a LFP 4-second binned
+                 package signal [43] with a Fourier transform window size of 32.                                (pooled) time series over 24h. To achieve single animal resolution for our
+                    The area under the curve of the fast Fourier transformed LFP signal in                      correspondingquantitativedescriptionsofamplitudesinFig.2B–EandS5C,
+                 Fig. 1E was calculated by integrating over the absolute values of the                          D, we derived likewise calculated ﬁts for each animal’s individual time
+                 transformed 4-second binned 24-hour time series of individual animals                          series in respective brain areas and light regimens by then detecting each
+                 and pooling the respective results.                                                            curve’s maximum and the corresponding Zeitgeber time.
+                 Continuous wavelet transform.           We computed the continuous wavelet                     Lomb-Scargle periodogram.          Lomb-Scargle periodogram data displayed in
+                 transform [44, 45] of raw LFP traces using Morlet wavelets with a width of 7                   Fig. 2E–G and S5E, which estimates frequency spectra of time series based
+                 cycles [46] to obtain representative information about the occurrence of                       onaleast-squares ﬁt of sinusoids, was created using lsp function from lomb
+                 neural oscillatory events using the wt function of R package biwavelet [47]                    package [49] and obtained from full and undisrupted recording periods
+                 which we show in Fig. S3. This was carried out for every individual animal                     (excluding habituation) with a duration of up to 72h of the 4-second
+                 both during LD and DD in the SCN and NAc at ZT0, ZT6, ZT12, and ZT18                           binned spectral and LFP data. Derived quantitative comparisons in Fig. 2E,
+                 over the course of 6min at each chosen Zeitgeber time. We then                                 2G, and S5E utilized exclusively each animal’s highest peak of the
+                 determined signiﬁcance levels of the detected wavelet events and                               respective Lomb-Scargle periodogram data, regardless of its amplitude.
+                 thresholded at a signiﬁcance level of 1.96. We counted the occurrence
+                 of bouts above threshold for every individual period (frequency) and                           Linear correlation.      Linear correlations were carried out as Pearson
+                 identiﬁed two frequencies – 66.8 and 8.3Hz – centered around which we                          correlation between a frequency band’s spectral or a LFP 4-second binned
+                 found local maxima for both genotypes. We show this quantiﬁcation in                           time series of both brain areas under a certain light regimen, pooled for
+                                                                                                                                                     Molecular Psychiatry (2025) 30:1859–1875
+                                                                                                            P. Volkmann et al.
+                                                                                                                                                                                                     1863
+             Fig. 2   Endogenous and environmental circadian rhythms together generate and shape 24-hour rhythmicity of LFP activity and its low-
+             frequency components. A Linear sine wave t for pooled z-scored 24-h gamma1 SCN activity of all animals. B Comparison of wild-type and
+             Cry1/2−/− sine wave amplitudes of z-scored data. Individual connected points represent matched frequency – light regimen – brain area pairs.
+             CAsin(B), but boxplots for both genotypes in LD and DD. D 24-hour circular graphs with arrows pointing at the averaged Zeitgeber time of
+             the highest amplitude of individual animals’ tted sine waves. Arrow length indicates inverted standard deviation. E Timing of Lomb-Scargle
+             peaks and matching sine wave amplitudes of individual animals for every frequency – light regimen – brain area pair. Point size corresponds
+             to power of respective Lomb-Scargle peak. F Lomb-Scargle periodograms of gamma1 time series of all individual animals in the SCN.
+             GAbsolute deviation of largest Lomb-Scargle power peaks from 24h. Median values are shown in red. Asterisks in (B) refer to student’s t-test,
+             in (C) to Type II ANOVA, in (G) to a general multivariate regression model.
+             Molecular Psychiatry (2025) 30:1859–1875
+                                                                                   P. Volkmann et al.
+         1864
+                 Fig. 3   Endogenous circadian clocks determine the temporal sequence of LFP activities and its low-frequency components across brain
+                 regions. A Pearson correlation of pooled theta1 activity from all animals with density plots for point clouds. B Pearson correlation of pooled
+                 LFP amplitude from all animals. C Pearson correlation color matrix for frequency pairs from each genotype’s averaged data. Correlation
+                 coefcients were obtained for the rst (ZT0-12, subjective day, upper right corner) and second half (ZT12-0, subjective night, lower left corner)
+                 of the 24-h day. D Correlation count plot for z-scored LFP amplitude (for graphical explanation, see Suppl. Fig. 4B) between both regions under
+                 LD. Occurrences of datapoints for respective conditions within each 3-hour time bin were counted, point size and color refer to the number of
+                 occurrences. E Cross-correlation of sigma activity between SCN and NAc under LD. Each bar refers to a correlation value with a multiple of a
+                 1-secondtime-lag. Values on the x-axis signify the lag in seconds for the corresponding correlation value. F Autocorrelation of sigma activity in
+                 the SCN under LD. Depiction as in (E). Asterisks in (C) refer to a Type II ANOVA of unpooled coherence coefcients (correlation values only of
+                 matching frequency bands) of all individual animals.
+                                                                                                                                                    Molecular Psychiatry (2025) 30:1859–1875
+                                                                                                              P. Volkmann et al.
+                                                                                                                                                                                                        1865
+             Fig. 4    Endogenous and environmental circadian rhythms together increase uniformity and steadiness of low-frequency LFP component
+             activities within and between brain regions and between animals. A Euclidean distance matrix for distances (a.u.) between every
+             combination of every time series from single animals (for each genotype listed once as numbers 1 to 5), averaged across all frequencies.
+             B Quantication of all Euclidean distances, grouped by the different variables. C Histograms of all slope parameters of SCN LD alpha1 time
+             series, counting occurrences within a binwidth of 20. D Curve t to the histograms in (C). Inlay panel: comparison of skewness values of slope
+             parameter histograms for all frequency – light regimen – brain area pairs. E Sample entropy of all LFP amplitude time series. F Sample entropy
+             of frequency time series pooled for all frequencies. Asterisks in (B) refer to a general multivariate regression model, in (E) and (F) to Type II
+             ANOVA, in (D) to a paired Wilcoxon rank-sum test.
+             Molecular Psychiatry (2025) 30:1859–1875
+                                                                                  P. Volkmann et al.
+         1866
+                Fig. 5   Disruption of endogenous circadian rhythms increases the variance of LFP constituents in multi-dimensional analysis. A PC1 vs
+                PC2 of a PCA of the complete dataset of one-hour binned activity with variable (frequency) arrows and density plots of point clouds.
+                BHistogramofdistribution of Euclidean distance values for all combinations of datapoints within each genotype shown in (A). Asterisks in (B)
+                refer to a two-sample Kolmogorov-Smirnov test.
+                each genotype as shown in Fig. 3A, B or for individual representative                         respectively). For example, for light regimen all Euclidean distances
+                animals shown in Fig. S6A. Correlation matrices in Fig. 3C and S6B were                       betweenpairsoftwotimeseriesbothunderLDwouldformtheﬁrstgroup,
+                obtained by calculating the Pearson correlation coefﬁcient for different                      all Euclidean distances between pairs of two time series where one was
+                combinations of frequency bands within the same light regimen for each                        under LD and the other under DD form the second group, and all
+                animal individually and then averaging over corresponding values. The                         Euclidean distances between pairs of two time series both under DD form
+                creation of the correlation count plot in Fig. 3D and its four categories is                  the third group.
+                explained in Fig. S6C.                                                                           For Euclidean distance of PCA results depicted in Fig. 5B, all possible
+                                                                                                              pair-wise combinations of datapoints for principal components 1 and 2
+                Cross- and autocorrelation.         Cross- and autocorrelations displayed in                  (PC1 and PC2) within each genotype were used accordingly. The
+                Fig. 3E, F and S6D–G were calculated using R function ccf of the tseries                      occurrence of obtained values was displayed as histograms with a
+                package[50]. Each correlation was calculated using 24-hour spectral or LFP                    binwidth of 2e-10.
+                data for LD and DD (and in case of autocorrelation each SCN and NAc)
+                separately and averaged over all animals within the same genotype.                            Slope analysis.    Slope values were calculated for every two consecutive
+                   For quantitative comparison of correlations shown in Fig. S6G, we took                     z-scored time series points by dividing their difference in spectral power by
+                all cross- and autocorrelation values, respectively, for every multiple of                    the time bin step size. Occurrences of slope values were then counted and
+                1-second lag (as displayed in the plots described before) and averaged                        displayed as histogram in Fig. 4C and S8B. X-axes were truncated for values
+                them within four time bins (two with negative, two with positive lag) for                     between 0 and 3,000 (left plot) and values between 3,000 and 9,000 (right
+                each animal individually from 1-second binned recordings of either                            plot). Skewness of histogram distributions was assessed using the skewness
+                spectral frequency bands or LFP signal. This was done for each light                          function of R package moments [52] for every frequency-light regimen-
+                regimen and, in the case of autocorrelation, for each brain area                              brain area combination and compared between genotypes in Fig. 4D.
+                individually.
+                                                                                                              Sample entropy.      Sample entropy [53] was calculated using the FastSam-
+                Coherence measurement.           Coherence measurements of Fig. S7 were                       pEn function of the TSEntropies package [54] and, briey, assesses
+                performed using R function coh of the package seewave [51]. More                              complexity and self-similarity of time series by identifying similar epochs
+                speciﬁcally, raw LFP traces at four different Zeitgeber times (ZT0, 6, 12, and                and assigning higher values indicating lower regularity and lower values
+                18) over the course of 6min each were divided into three bins of 108s                         indicating increased self-similarity. This analysis yields a single value for
+                with an overlap of 36s each. The coherence at each Zeitgeber time was                         each individual 24-hour time series analyzed. These single measures are
+                then averaged over the three bins and plotted using linear smoothing                          displayed as boxplots for all 4-second binned LFP in Fig. 4E and for the
+                (implemented in geom_smooth within ggplot) with 95% error bands,                              pooled frequency time series in Fig. 4F, separated for brain area, light
+                averaged for the different parameters speciﬁed in Fig. S7.                                    regimen, and genotype.
+                Euclidean distance.       Euclidean distance for each time series pair was                    Granger causality.     Granger causality was calculated for the compiled time
+                calculated using the formula                                                                  series of each genotype under each light regimen in each brain region
+                            ZT24q                                                using grangertest of the package lmtest [55] with results displayed in
+                            X                      2                   2                                      Table 1. The function carries out a Wald test comparing whether a time
+                 fAðÞ; B ¼          ðB    A Þ þðB            A Þ
+                                      xZTn    xZTn        yZTn    yZTn                                        series A is only explained by (the lags of) A itself or by (the lags of) both
+                             ZT0                                                                              time series A and B.
+                with A and B being two time series and, for example, AyZTn being the
+                y-coordinate of a deﬁned time point ZTn of time series A, such that only                      PCA.    For Principal Component Analysis, the prcomp function from R
+                the distance of corresponding time points was calculated. Our ﬁnal metric                     packagestats was used. Briey, PCA transforms data into a new coordinate
+                reduces this distance between each combination of compared time series                        system in a way that its greatest variation is captured along the axes. Time
+                to one single measure with higher values indicating higher distance and                       bins were treated as observations, spectral power bands as variables.
+                lower values lower distance. We show one matrix that averages all                             Plotting was carried out using ggplot and ggbiplot from the ggbiplot
+                frequencies in Fig. 4A and an example matrix for gamma1 in Fig. S8A. For                      package [56], the latter for overlay of the variable (frequency) arrows.
+                quantitative comparisons in Fig. 4B, the entire data was split into three                     Figure 5A and S9B show results for one-hour binned activity, while Fig. S9A
+                groups for each binary variable (light regimen, brain area, or genotype,                      shows results for 4-second binned data of all frequency bands. Euclidean
+                                                                                                                                                  Molecular Psychiatry (2025) 30:1859–1875
+                                                                                                    P. Volkmann et al.
+                                                                                                                                                                                       1867
+              Table 1.   Granger causality shows prediction accuracy more strongly in the direction from SCN to NAc.
+                                                                                                                       −/−
+                             Wild-type                                                                          Cry1/2
+                             SCN  NAc                                  NAc  SCN                               SCN  NAc                               NAc  SCN
+                             p-value               summary              p-value            summary              p-value            summary              p-value            summary
+              LD             < 2E-16               ***                  < 2E-16            ***                  < 2E-16            ***                  0.3386             n.s.
+              DD             0.0001637             ***                  0.4216             n.s.                 < 2E-16            ***                  0.2793             n.s.
+              Granger causality for each genotype’s pooled time series between the two brain regions in both directions with each p-value of F-statistics representing the
+              likelihood of nding causality if no causality was present between the samples.
+            Fig. 6   Disruption of endogenous and exogenous clocks affects properties of LFP and its spectral content across all time scales. Heatmap
+            summarizingtheparametrizedmainndingsofourstudyasdisplayedinFigs.1–5.Valueswerederivedbypoolingmeasuresdescribedonthe
+            left side of the heatmap for all frequency bands (except for LFP amplitude) and both brain regions (where applicable) within four groups: wild-
+            typeandCry1/2−/−animalsunderLDandDDeach;andcalculatingthemeanwithinthesefourgroups.Wethenusedwild-typemiceunderLD
+            as reference to calculate relative fold-changes in Cry1/2−/− animals under LD (endogenous), wild-types under DD (exogenous) and Cry1/2−/−
+            animals under DD (endogenous × exogenous). All measures displayed here are represented throughout the other gures. Descriptions on the
+            right side of the heatmap are a suggestion for how to understand the obtained measures in a neurophysiologically meaningful way.
+            distance was calculated using the 1-hour binned data for every possible                 phenomenaandnotonly irregular transients with high amplitude
+            datapoint pair within genotypes.                                                        [57], we computed the continuous wavelet transform [44, 45] for
+                                                                                                    selected sections of our raw LFP traces using Morlet wavelets
+            Fold-change heatmap.        For every measure obtained in this study, we                (Fig. S3A). The captured LFP signals contain neural oscillatory
+            calculated fold-changes relative to wild-type animals under LD and                      events occurring in the entire frequency range analyzed through-
+            displayed them as heatmap in Fig. 6. LFP amplitude derives its values from              out our study (and less so below and above this range). However,
+            Fig. 1E, Pearson correlation from Fig. 3C, Cross-correlation and Auto-                  we identiﬁed two frequencies which stood out in displaying
+            correlation from Fig. S6G, Skewness slope values from Fig. 4D, Block count              pronounced peaks in the time-frequency plane: one in the alpha1
+            from Fig. 1C, PCA (Euclidean Distance) from Fig. 5B, Euclidean distance                 and one in the gamma2 range (Fig. S3A). Oscillations at these two
+            from Fig. 4A, Sample entropy from Fig. 4F, Sine wave amplitude from
+            Fig. 2C, and Period deviation from Fig. 2G. In each case, all available data            frequencies largely extend over±10Hz, with only minor differ-
+            from all frequencies and, where applicable, both brain regions were                     ences between the two genotypes (Fig. S3B). In exemplary traces
+            averaged for each of these four groups: wild-type under LD, wild-type                   of neural oscillatory events, we observe that in the alpha1 range
+                               −/−                         −/−
+            under DD, Cry1/2        under LD, and Cry1/2        under DD. Relative changes          they have a longer duration, while those in the gamma2 range are
+            to wild-type under LD were then calculated for the other three groups.                  rather short (Fig. 1A, S3C) which is conﬁrmed in a density plot of
+            Where the relative change was negative, directionality of the change was                their event duration distribution (Fig. S3D). Properties of neural
+            inverted to paint a coherent picture in the heatmap.                                    oscillatory events show little differences between the two brain
+                                                                                                    areas in the alpha and remarkable differences in the gamma
+            RESULTS                                                                                 range, with the SCN displaying shorter durations (Fig. S3D) and
+            Disruptions of endogenous and environmental circadian                                   more low-power events (Fig. S3E). Intervals between events of
+            rhythms increase fragmentation of LFP activity over 24h                                 both frequencies, however, depend on the light regimen (shorter
+            We recorded LFP signals with stereotactically placed electrical                         during LD) (Fig. S3D). Finally, wild-type animals display more high-
+                                                                                          −/−       power events in the gamma range, while Cry1/2−/− mice show
+            probes in the SCN and NAc of ﬁve wild-type and ﬁve Cry1/2                               more of them in the alpha range (Fig. S3E). These initial results
+            animals (Fig. S1A, B). Raw traces of our LFP recordings and the                         demonstrate that our recordings capture neural oscillatory events
+            corresponding spectrogram show contamination-free recordings                            instead of just spectral noise. Events occur especially pronounced
+            under both LD and DD (Fig. S2A, B) that are stable in amplitude                         in the alpha and gamma range. Our results also show how these
+            and quality over the entire recording period (Fig. S2C). To ensure                      events are modulated differentially contingent on the brain area
+            that we are describing real underlying neuronal oscillatory                             from which they are recorded and on diurnal rhythms, with
+            Molecular Psychiatry (2025) 30:1859–1875
+                                                               P. Volkmann et al.
+       1868
+             differences in neural oscillatory power being dependent on              in SCN and NAc shows an antiphasic circadian rhythm (Fig. S4B).
+             endogenous clock function and intervals being modulated by              Accordingly, averaged one-hour bins of the fast Fourier trans-
+             the light regimen.                                                      formed LFP signal show a dip around ZT12 in the SCN that is
+               Exemplary raw traces of detected neural oscillatory events in         weakly preserved under DD (Fig. 1D, S4D), but an increase around
+             the SCN for animal C1 (Fig. 1A) emphasize that our spectral data is     ZT12 in the NAc. The similar applies to the investigation of
+             capturing underlying neuronal ensemble phenomena that con-              frequency-speciﬁc activity, e.g., gamma1 (Fig. S4E). Here, wild-type
+                                                                                                                               −/−
+             stitute the basis for our further analyses. To now obtain a general     animals, especially in contrast to Cry1/2      animals under DD,
+             impression of 24-hour dynamics of the LFP time series of the SCN        consistently show narrow standard deviation margins and a steep
+             and the NAc under the inuence of endogenous and exogenous              increase or decrease in activity around ZT12.
+             rhythms, we used a graphical visualization of the z-scored activity       Moreover, quantifying the area under the curve of the fast
+             within all frequency bands and fast Fourier transformed LFP             Fourier transformed LFP signal shows higher values for Cry1/2−/−
+             amplitude of an exemplary ZT0-ZT24 epoch for each animal under          animals under both light regimens in the SCN as well as the NAc
+             LD and DD conditions. For both brain regions, these graphs show         (Fig. 1E), implying higher synchronicity of local neuronal activity
+             a rough division of frequency speciﬁc activity and LFP amplitude        when the endogenous clock is disrupted. Furthermore, the
+             into homogenous blocks (Fig. 1A, S4A, B). Under LD conditions, a        analysis shows that LFP amplitude in the NAc is consistently
+             clear demarcation line of frequency distribution is visible at ZT12     higher than that of the SCN regardless of genotype and light
+             for all wild-type animals, deﬁned by a switch from relatively low to    regimen.
+             overall higher gamma activity (and vice versa in the remaining
+             frequency bands) (Fig. 1A top left, S4A top left). In the same          Endogenous and environmental circadian rhythms together
+             animals, the day-night switch between frequency speciﬁc activity        generateandshape24-hourrhythmicityofLFPactivityandits
+             is preserved under DD conditions, however due to individual free-       low-frequency components
+             running periods of the animals without a comparably clear line          In order to investigate more precisely and systematically the
+             after the ﬁrst 12h of the recording section shown (Fig. 1A top          inuence of endogenous and environmental diurnal rhythms on
+             right, S4A top right). Also, in Cry1/2−/− mice, the frequency-          electrical properties of neurons and their circadian rhythmicity, we
+             speciﬁc activity under LD conditions appears to be different in the     carried out linear ﬁtting of a 24-hour sine wave for the different
+             light and dark phases of the LD cycle, although no such clearly         z-scored time series to compare the amplitudes as a surrogate for
+             deﬁneddemarcationlineasinwild-typeanimalsisevident(Fig.1A               the strength of 24-h rhythmicity (Fig. 2A, S5A, B; for statistics, see
+             bottom left, S4A bottom left). However, in DD Cry1/2−/− animals         Suppl. File). Comparison of all amplitudes of these wave ﬁts
+                                                                                                                    −/−
+             do not display any obvious diurnal patterns (Fig. 1A bottom             between wild-type and Cry1/2       mice for all single frequencies
+             right, S4A bottom right). Beyond that, the recorded signals             (for SCN and NAc under LD and DD each) shows that, with a few
+             very accurately reect changes between increases and decreases          exceptions, the amplitudes of Cry1/2−/− mice are always lower
+             of locomotor activity, as shown for animals W5 and C5 (Fig. 1A,         than those of wild-type mice, with some of their amplitudes being
+             S4A).                                                                   close to 0 (Fig. 2B and S5C). The highest amplitudes of 24-h
+               The optical impression of a demarcation line between light and        rhythms are found in wild-type animals in LD (Fig. 2C). In DD,
+             dark or active and inactive phase arises primarily from different       when only the inuence of endogenous rhythms remains, the
+             relative activity distribution patterns within frequency bands          amplitudes of the individual frequencies of wild-type mice
+             speciﬁc to the respective time of day, which appear especially in       decrease signiﬁcantly. Interestingly, the magnitude of these
+             wild-type animals in the form of temporally extended, homo-             amplitudes is then very similar to that of Cry1/2−/− mice in LD,
+             geneousblocksandarecontrastedbyafragmentationofblocksin                 where only exogenous rhythmic signals are present – suggesting
+                   −/−
+             Cry1/2     animals. To be able to quantify this merely visual           that endogenous and exogenous time signals each have a
+             phenomenon, after binary splitting of z-scored values, we               similarly strong inuence on circadian neuronal activity rhythms.
+             calculated the rolling average of each animal’s time series and,        Whenboth rhythmic inuences, endogenous and exogenous, are
+                                                                                                                     −/−
+             again, split the obtained values with regards to their relation to      omitted, as is the case in Cry1/2   mice in DD, the amplitudes of
+             the mean. This reproduced the visually identiﬁed distribution           the frequencies hardly exceed 0 overall.
+             pattern of blocks (Fig. 1B) where each block type corresponds to          Interestingly, circular plotting of the 24-h sine wave ﬁt phase
+             relatively high or low spectral power or LFP amplitude,                 shows that in the SCN and the NAc of wild-type mice some
+             respectively. Counting the number of blocks conﬁrms that wild-          frequencies predominantly peak between ZT15-16, i.e., in the
+             type animals have fewer blocks than Cry1/2−/− mice in LD,               activity phase (Fig. 2D). This effect is predominantly carried by
+             indicating a less fragmented distribution of frequency activity         gammafrequencybands,whichareassociatedwithattentionand
+             (Fig. 1C) and LFP amplitude (Fig. S4C). In contrast, Cry1/2−/−          consciousness in the cortex, offering a potential explanation to
+             animals more often alternate between the two block types and            why their peak occurs during the animals’ active phase [60, 61].
+             both types occur with the same probability regardless of the time       Besides, there is another cluster in the SCN in the opposite phase
+             of day. Furthermore, the analysis shows that, independently of          at around ZT5, in which mainly theta, alpha, and sigma
+             genotype, the light regimen signiﬁcantly affects the number of          frequencies are present, which are associated with decreased
+             blocks with fewer blocks in LD than in DD, and that during the          activity, relaxation, and sleep [62]. In contrast, in Cry1/2−/− mice,
+             light phase (LD) or subjective day (DD) the frequency activity is       neither in the SCN nor in the NAc are times discernible at which
+             more fragmented than during the dark phase / subjective night.          certain frequency peaks are particularly pronounced. With
+                                                                                     additional consideration of the light regimen, these patterns are
+             Disruption of endogenous circadian rhythms increases LFP                found to be essentially maintained in wild-type mice, but with
+             amplitude                                                               less pronounced peak clustering in DD (Fig. S5D). Similar to wild-
+             LFPs reect local electrical currents caused by aggregation of          type mice but with less pronounced patterning, the peaks of
+             neuronal ensemble activity [23]. Hence, their intensity is              gamma frequencies in the SCN of Cry1/2−/− mice under LD are
+             hypothesized to be indicative of the level of synchronicity of          clustered between ZT15-16 and of sigma at around ZT6. This
+             these ensembles, with higher intensities indicating higher              pattern is absent in SCN under DD and in NAc under both LD
+             synchronicity [58, 59].                                                 and DD.
+               Depiction of LFP amplitude of both brain areas also shows no            As the sine wave ﬁt inherently assumes 24-h rhythmicity, we
+             diurnal pattern in Cry1/2−/− animals, but in wild-type animals,         additionally drew Lomb-Scargle periodograms for each animal for
+             especially under LD conditions. Interestingly, their LFP amplitude      every frequency under both light regimens [63] to investigate
+                                                                                                                 Molecular Psychiatry (2025) 30:1859–1875
+                                                                                      P. Volkmann et al.
+                                                                                                                                                            1869
+           whichotherperiodsnaturally occur. The combined examination of              counted the occurrence of four possible correlation constellations
+           24-h sine wave ﬁt amplitudes and the timing and power of the               of high and low SCN and NAc LFP amplitude (Fig. S6C for
+           detected dominant periods of the Lomb-Scargle analysis illus-              visualization) according to their appearance within eight 3-hour
+           trates that the periods of wild-type animals predominantly cluster         Zeitgeber time windows covering 24h. Interestingly, wild-type
+           in the circadian range, i.e., around 24h, whereas Cry1/2−/− animals        animals consistently display a distinct time course of correlation
+           show a broader period range and less powerful rhythms (Fig. 2E).           values with relatively higher SCN activity accompanied by lower
+           With explicit consideration of exogenous inuences by the light            NAc activity during daytime and lower SCN activity accompanied
+           regimen, it shows that rhythms with circadian period and strong            by higher NAc activity during nighttime (Fig. 3D). In contrast, this
+           powercanespecially be found in wild-type animals in LD and with            circadian pattern is almost completely lost in Cry1/2−/− animals in
+           lower power in DD, whereas they are hardly present in Cry1/2−/−            which higher or lower SCN and NAc activity predominantly occur
+           animals, especially in DD, here exempliﬁed for gamma1 power of             together.
+           the SCN (Fig. 2F). Accordingly, the dominant period of all SCN               Communication between brain areas also occurs lagged.
+           frequencies of wild-type mice in LD almost never deviates from             Besides correlation of neuronal activity at the same timepoint,
+           24h, and predominantly deviates only little in DD towards periods          certain state transitions might only be covered by larger time
+           slightly longer than 24h (Fig. 2G, top left). In contrast, dominant        intervals  [64].  Therefore,   we sought to investigate cross-
+           periods in Cry1/2−/− SCNs mostly differ by about 5h in LD and              correlations within 1-second bins between SCN and NAc activity
+           deviate so much that they no longer fall within the range of               covering a time lag of almost 60s, here exempliﬁed by sigma in
+           circadian periods in DD (Fig. 2G, top right), although the animals         LD (Fig. 3E) and LFP amplitude in DD (Fig. S6D). In wild-type
+           show strong 24-h masking in behavior. The NAc exhibits similar             animals, highest correlation between SCN and NAc occurs at the
+           patterns (Fig. 2G, bottom), however, unlike in the SCN, stronger           same time point, i.e., time lag 0. However, at time points before
+           deviations from 24h are present in wild-type animals in both LD            and after, a relatively high correlation between SCN and NAc is
+           and DD, which is especially evident in alpha2, sigma, and beta1            also evident. In contrast, Cry1/2−/− animals show a sharp and
+           frequencies in DD, whose periods deviate nearly 20h from 24-h              compared to wild-type animals higher peak at 0s time lag and,
+           rhythms. Similarly, LFP amplitude of both brain regions deviates           additionally, all time points before and after appear atter. Hence,
+           strongly from 24-h rhythmicity in Cry1/2−/− animals, especially in         within the same time bin, electrical activity of the SCN and the
+           DD, but less so in wild-type animals (Fig. S5E). Thus, again, both         NAc is excessively synchronized in Cry1/2−/− animals, whereas in
+           genotype and light regimen have a striking effect on electrical            wild-type animals it is more non-synchronous meaning that
+           activity rhythms within brain areas, with loss of endogenous and           correlative levels of neuronal activity between the two brain
+           exogenoustimingcueseachleadingtogreater variance in rhythm                 regions remain stable for a longer time period. The same pattern
+           periods.                                                                   is also recognizable in autocorrelations within the same brain
+                                                                                      region, here shown for sigma in LD (Fig. 3F, S6D, E) and LFP
+           Endogenous circadian clocks determine the temporal                         amplitude in LD in the NAc (Fig. S6D) and is stable across
+           sequence of LFP activities and its low-frequency components                frequencies with the only exception being delta in LD (not
+           across brain regions                                                       displayed). The described patterns and strengths of correlation
+           As we recorded local ﬁeld potentials from the SCN and the NAc of           are not observable in a negative control correlation (Fig. S6F).
+           each mouse simultaneously, we were able to assess correlation of           Finally, this pattern is stable across frequencies in both light
+           activity and carrier waves between the two brain regions. Using            regimens and can be quantiﬁed for both cross- and autocorrela-
+           different scaling approaches (linear, exponential, and logarithmic)        tion (Fig. S6G).
+           to our variables led to comparable R-squared values in our                   To describe the synchrony of carrier waves between SCN and
+           correlational analysis. Because of the cloud-like distribution of data     NAc more detailed and beyond spectral power of frequency
+           points, and its biological meaningfulness and ease of under-               bands, we also assessed coherence measurements [65] of our raw
+           standing, we chose a linear model.                                         LFP traces which assess linear association as a degree of
+             UnderLD,weobservesimilarpositive correlations between SCN                synchronous oscillations between two signals such as time series.
+           and NAc in both wild-type and Cry1/2−/− animals, but with higher           Averaged traces over LD and DD as well as the four Zeitgeber
+           density of point clusters in wild-type animals (Fig. 3A; for statistics,   times assessed (ZT0, 6, 12, and 18) for all individual animals reveal
+           see Suppl. File). However, under DD conditions, the linear                 clear differences between the two genotypes. Most noticeably,
+                                                                             −/−            −/−
+           regression lines clearly differ between wild-type and Cry1/2               Cry1/2     animals show a uniﬁed peak around 10Hz (Fig. S7 top)
+           animals with a very pronounced positive correlation between SCN            which is even more pronounced under DD. These observations
+                              −/−
+           and NAc in Cry1/2       animals and a at correlation line in wild-        conﬁrm our previously shown results of excessive synchronization
+           type animals. These ﬁndings, here exempliﬁed by theta1, are                of activity between SCN and NAc in absence of endogenous and
+           consistent across the various frequency bands, and for LFP                 exogenous clocks from linear correlations of the binned spectral
+           amplitude in averaged and individual representative animals                power (Fig. 3A, C). Pooling measurements across genotypes and
+           (Fig. 3B, S6A, S6G; for statistics, see Suppl. File). To get an overview   light regimens for individual animals further validates the 10Hz
+           over all frequency pair correlation values between and within SCN          peak in Cry1/2−/− animals (Fig. S7 middle). Adding Zeitgeber time
+           and NAc, we then created a correlation matrix for each genotype,           to this depiction shows that of all variables analyzed, genotype is
+           light regimen, and (subjective) daytime, with the upper right side         the best predictor of the coherence measurement curve’s shape
+           displaying (subjective) daytime and the lower left side (subjective)       (Fig. S7 bottom).
+           nighttime values. While the notion of only smaller discrepancies             Taken together, correlation analyses display remarkable differ-
+           between wild-type and Cry1/2−/− animals in LD is conﬁrmed                  ences between wild-type and Cry1/2−/− animals. Especially, but
+           across frequency pairs, in DD smaller linear correlation values            not exclusively under DD conditions, Cry1/2−/− animals show
+           betweenSCNandNAcareprominentinwild-typeanimals,butnot                      higher correlation values between SCN and NAc that we interpret
+           in Cry1/2−/− animals (Fig. 3C, S6B). Statistical analysis of all           as an excessive synchronization of activity in the absence of a
+           coherencecoefﬁcients (within our discrete bands) further conﬁrms           circadian  pacemaker. Between- and within-region electrical
+           a signiﬁcant difference of correlation values between the two              activity of wild-type animals, in contrast, appears more non-
+           genotypes.                                                                 synchronous and coordinated over the course of many seconds.
+             Next, we asked whether the correlation patterns change                   Thus, our data exposes the presence of an endogenous circadian
+           throughout the day, i.e., as a function of Zeitgeber time. For this,       clock as a powerful determinant on consistency of activity
+           we correlated the z-scored LFP amplitude of SCN and NAc and                between and within two regions of the brain.
+           Molecular Psychiatry (2025) 30:1859–1875
+                                                                   P. Volkmann et al.
+       1870
+              Endogenous and environmental circadian rhythms together                     next within their time series are smoother than in Cry1/2−/−
+              increase uniformity and steadiness of low-frequency LFP                     animals (Fig. 4D, inserted panel).
+              component activities within and between brain regions and                      Lastly, an additional parameter assessing self-similarity of time
+              between animals                                                             series is sample entropy, an analysis tool developed for the
+              To further interrogate the inuence of circadian rhythms on the             examination of biological time series [53]. This method identiﬁes
+              nature of 24-h time course activity of LFP components, we                   similar epochs and assigns a value to every time series with higher
+              obtained an estimate of the similarity of frequency band time               values indicating lower regularity and reduced self-similarity.
+              series 1) across both genotypes, 2) across the different light              Sampleentropyanalysis of both genotypes’ LFP time series of SCN
+              regimens, 3) across SCN and NAc, and 4) across individual animals.          and NAc shows higher values for Cry1/2−/− animals than for wild-
+              Cross- and autocorrelation, as shown above, have revealed that              type animals equally for both brain regions and for LD and DD,
+              neuronal activity over the course of many seconds in wild-type              again demonstrating endogenously lower regularity and less self-
+              animals shows more consistency of concerted activity between                similarity in neuronal activity of Cry1/2−/− animals (Fig. 4E).
+              and within brain areas when compared to Cry1/2−/− animals. In               Comparing every frequency band’s time series of the two brain
+              order to obtain a measure for regularity and similarity of the time         regions under both light regimens yields similar results, with
+              series over the course of an entire 24-h period, as a next step, we         signiﬁcant differences between the two genotypes, but in this
+              therefore calculated the Euclidean distance between individual              case also between brain areas and frequencies (Fig. 4F and S8C).
+              time series. Euclidean distance provides information about how                 Beyond mere similarity of the individual time series, we also
+              close or far data points of two individual time series are from each        wanted to interrogate, whether the signals we had obtained from
+              other at every given time point, i.e., how similar the two curves           SCNandNAccontainedanyinformationthatwouldrelatethemto
+              are. We assessed the Euclidean distance between all the different           one another beyond all previous analyses. We therefore deter-
+              combinations of time series of all individual animals for each brain        mined Granger causality, a measure of the capability of one time
+              area, light regimen, and light/dark phase as one single measure             series to predict another one, between the two brain regions’
+              per time series pair each. A matrix was generated for every                 averaged signals of each genotype. Our analysis reveals high
+              frequency band individually (as shown for gamma1 in Fig. S8A).              explanatory power of the SCN LFP signal for the NAc LFP signal for
+              Wethencalculated one average value from all frequency matrices              both genotypes in both light regimens (Table 1, Fig. S8D).
+              for every datapoint to get a comprehensive matrix (Fig. 4A).                Interestingly, in contrast, the LFP signal of the NAc has only limited
+              Furthermore, we extracted the cumulative effects of our main                signiﬁcant explanatory power for the SCN LFP signal. Only in wild-
+              variables (light regimen, brain region, and genotype) from the              type animals in LD can the NAc LFP forecast LFP signal of the SCN,
+              matrix (Fig. 4B). We see that regardless of genotype, the similarity        which is not the case in DD and in Cry1/2−/− animals in both LD
+              of the time series depends signiﬁcantly on the light regimen                and DD. This result is interesting for several reasons, showing ﬁrst
+              (Fig. 4B, top) and also on the brain area (Fig. 4B, middle). In LD, the     that the regularity of neuronal activity in the SCN and NAc of wild-
+              time series are much more similar to each other than in DD and              type mice is so high that the signal of one brain region can predict
+              also more similar than in the LD-DD comparison. Likewise,                   that of the other brain region. Second, it shows that this prediction
+              Euclidean distances are very small for comparisons within the               is particularly accurate in the direction from SCN to NAc (which is
+              SCN, whereas they are much larger in the NAc, and the values of             true for both genotypes), indicating that the well-established
+              the SCN-NAc comparison are intermediate.                                    hierarchical order between SCN and other brain regions seems to
+                However, the most striking difference of the distance matrix              hold also at the level of non-circadian high frequency electrical
+              constitutes an uneven color gradient from the upper left, where             activity. And third, rhythmic factors from the environment, here
+              the values of the wild-type animals are clustered, to the lower             the light regimen, also have signiﬁcant inuence on the time-of-
+              right corner, where the Cry1/2−/− data is located. This gradient is         day dependent interplay between brain regions.
+              indicative of overall lower distance values, i.e., higher similarity, for      In conclusion, both endogenous and environmental circadian
+              within-wild-type comparisons than within-Cry1/2−/− comparisons.             rhythms increase steadiness and smoothness of 24-h LFP time
+              Aquantiﬁcation of the respective distances comparing genotypes              series and its frequency components within brain regions.
+              indeed conﬁrms lower distances for wild-type than for Cry1/2−/−             Interestingly, this inuence extends to the degree that the
+              animals (Fig. 4B, bottom). Interestingly, even when comparing               trajectories of LFP frequency components of individual wild-type
+              wild-type with Cry1/2−/− animals, the distances are lower than              animals and animals kept in LD are much more comparable to
+              distances within the Cry1/2−/− group. In addition, there is a               each other than to those of Cry1/2−/− animals and those
+              relevant interaction of genotype and light regimen, with DD                 kept in DD.
+                                                            −/−
+              further increasing the distances in Cry1/2         mice. Thus, taken
+              together it appears that wild-type time series are generally                Disruption of endogenous circadian rhythms increases the
+              steadier, even among each other, and less variable than those of            variance of LFP constituents in multi-dimensional analysis
+                    −/−
+              Cry1/2     animals.                                                         Finally, to account for the complex and multidimensional nature
+                Afurther surrogate for variability and regularity of a time series        of the recordings, we evaluated the frequency components of
+              is the slope value for each consecutive time point pair, i.e., the          each animal’s LFP signal for all time points at once using principal
+              (vertical) distance from one measuring point to the next. As a              componentanalysis(PCA)[66].PCAidentiﬁesanaxissysteminthe
+              representative example, we have plotted the obtained slope                  multidimensional data space in which the directions of the axes,
+              values for all alpha1 time series in LD in the SCN as histograms,           the principal components, correspond to the main directions in
+              with slopes from 0–3,000 to visually show counts of occurrences of          which the data vary, i.e., along which the data points separate
+              rather at slopes, and from 3,000–9,000 to show the range of                best. Therefore, it allowed us to test, by which factors the variance
+              incidences of steeper slopes (Fig. 4C, S8B). We see that wild-type          within all our animals’ recorded datasets would actually be driven,
+              mice show quantitatively more at slope values and fewer                    and to evaluate the contribution of every frequency component.
+              frequently steep slopes compared to Cry1/2−/− animals, in which             Displaying the separation of data along the ﬁrst two principal
+              the overall distribution of slopes appears atter and broader               components (with PC1 explaining 90.5% and PC2 5.7% of total
+              (Fig. 4D). This impression can be quantiﬁed and conﬁrmed by the             variance in the data) shows a more pronounced data point
+              skewness of the histogram. Comparing the skewness values of the             separation for Cry1/2−/− animals than for wild-type animals
+              histograms for all frequency bands reveals that, overall, wild-type         (Fig. 5A, S9A). Whereas data points of wild-type animals cluster
+                                                                          −/−                                                −/−
+              mice display higher skewness values than Cry1/2                   mice      strongly, data points of Cry1/2         animals are more separated
+              indicating that the transitions from one measuring point to the             along the two axes, again conﬁrming higher similarity of
+                                                                                                                        Molecular Psychiatry (2025) 30:1859–1875
+                                                                                    P. Volkmann et al.
+                                                                                                                                                         1871
+                                                                                          −/−
+          frequency band activity within individual wild-type animals and           Cry1/2    animals, no rhythms can be detected in DD. However,
+          higher variance within Cry1/2−/− animals. In order to actually            LD-cycles are also able to induce rhythms in endogenously
+          quantify the difference in separation of datapoints between both          arrhythmic animals that are as pronounced in amplitude as those
+          genotypes, we measured the difference in variance by analysis of          of wild-type mice in DD. This means that endogenous and
+          the Euclidean distance of every individual datapoint pair within          exogenous timing cues are each similarly strong drivers of
+          both genotype groups (Fig. 5B). This analysis shows a signiﬁcant          rhythms of neuronal activity that act additively in wild-type
+          discrepancy of the histogram distributions with more occurrences          animals in LD.
+          of high distances for Cry1/2−/− animals. The separation of                  Endogenous and environmental rhythms also inuence the
+          datapoints appears to be mainly driven by activity in the NAc,            interplay between SCN and NAc. In LD, LFP intensities and
+          as it is NAc datapoints that separate more prominently along PC1          individual LFP components of SCN and NAc correlate strongly in
+          (Fig. S9B), and it is not exclusively caused by any single frequency      both genotypes. However, this correlation decreases remarkably
+          as all frequency components contribute to the overall variance in         in wild-type animals under DD but remains almost unchanged in
+                                                                                          −/−
+          similar fashion, indicated by the corresponding directions of the         Cry1/2    animals. When these correlation values are assigned to
+          frequency band arrows (Fig. 5A, S9B). Only gamma1 and 2 appear            binned Zeitgeber intervals over 24h, it becomes clear that in wild-
+          to deviate from this general alignment, emphasizing that they             type mice, the NAc is often inactive during the light phase when
+          might convey complementary information. Taken together, PCA               the SCN is active and vice versa during the dark phase. This
+          shows that variance in our data is primarily driven by genotype           observation is consistent with the predominantly inhibitory role of
+          whereaslight regimen and brain area contribute to a lesser extent.        the SCN [67, 68] and its increased activity in the light phase
+             This increased variance of the spectral content of LFPs conﬁrms        whennocturnal animals such as mice are inactive. Interestingly, in
+                                                                                          −/−
+          the reduced self-similarity and consistency of neuronal ensemble          Cry1/2    animals, despite rhythmic behavior in LD, this pattern of
+          activity in Cry1/2−/− animals in the multidimensional variable            opposing activity of SCN and NAc is not evident and both brain
+          space. While variance is higher amongst frequency bands in the            regions are predominantly active or inactive simultaneously. Thus,
+          NAc, those in the SCN in turn appear to be more consistent and            while endogenous and exogenous factors can equally generate
+          homogenous in activity, especially in wild-type animals. PCA also         rhythmicity, endogenous clocks appear to be necessary for the
+          shows that variation within the spectral content of LFPs largely          precise choreography of SCN activity and activities of subordinate
+          arises  along one dimension (PC1, evidenced by its high                   brain regions over the course of the day.
+          explanatory power of 90.5% and the alignment of most frequency              Most surprisingly, the presence of endogenous and exogenous
+          arrows) – the dimension which also separates both genotypes               circadian rhythms not only affects circadian baseline changes in
+          best. As PCA incorporates all frequency components of any given           neuronal activity within and between brain regions, but also their
+          point in time into one measure, it emphasizes the robustness of           intrinsic nature and quality on a much shorter time scale. One of
+          our reported ﬁndings.                                                     these changes is the constant increase of the fast Fourier
+                                                                                    transform of the LFP signal in Cry1/2−/− animals which could be
+          Disruption of endogenous and exogenous clocks affects                     attributed to a higher synchronicity of local neuronal ensembles
+          properties of LFP and its spectral content across all time scales         [58]. This assumption is supported, in one way, by the increased
+          Our deep analysis of local ﬁeld potentials and their spectral             synchronization between SCN and NAc activity within the same
+          content shows that disruption of endogenous and exogenous                 time bin in Cry1/2−/− animals. In contrast, LFP amplitude and LFP
+          rhythms not only inuences circadian but also ultradian processes         components of Cry1/2−/− mice show decreased cross-correlation
+          across time scales. To summarize our ﬁndings, we calculated the           between SCN and NAc and autocorrelation within the two brain
+          meanofthemostinformative measures obtained in this study for              regions indicating a reduction in coherent state dependent
+          our four experimental groups (wild-type and Cry1/2−/− animals             activity over larger time intervals. Hence, modulated by endo-
+          under LD and DD each) and displayed fold-changes in relation to           genous rhythms, activity consistency between brain regions
+          wild-type mice under LD (Fig. 6). While cross- and autocorrelation        displays a differential regulation across different time scales.
+          are more dominantly affected by perturbation of endogenous                Overall, these results suggest that in the absence of endogenous
+          clocks, exogenous clocks play a bigger role for Euclidean distance.       circadian clocks, neuronal responses to each other are predomi-
+          The interaction of both clocks most prominently has its biggest           nantly synchronized and to some extent more stereotypical in
+                                                                                          −/−
+          inuence on LFP amplitude, as well as sine wave amplitude and             Cry1/2    animals than in wild-type animals, where they are rather
+          period deviation. This synopsis of our ﬁndings captures how our           non-synchronous and generally more stable, as would be
+          interventions differentially affect (the spectral content of) LFPs on     expected for physiological signals traveling through the healthy
+          different time scales.                                                    brain [69].
+                                                                                      At the same time, the dynamics of the LFP signal and its
+                                                                                    frequency components over time appear to be less organized and
+                                                                                                              −/−
+          DISCUSSION                                                                well-structured in Cry1/2      animals than in wild-type animals.
+          We had based our study on three hypotheses. First, endogenous             Whereas in wild-type mice successive signals are rather similar,
+          and exogenous 24-h rhythms and their interplay control circadian          resulting in smoother time series, the differences from one
+          rhythms of neuronal activity within brain regions. Second, these          measuring point to the next in the time series in Cry1/2−/− mice
+          factors moreover regulate the interaction between brain regions           are more drastic and the signal is characterized by greater
+          throughout the day. And third, the presence of endogenous and             entropy. Due to the increased steadiness of the time series in wild-
+          exogenous circadian rhythms inuences the properties of                   type animals, they are more similar among each other and to
+                                                                                          −/−                       −/−
+          neuronal activity beyond its circadian aspect.                            Cry1/2     animals than Cry1/2       animals amongst themselves.
+             Our data show a distinct diurnal distribution of homogenous            Likewise, LD is able to reduce differences between time series.
+          blocks of neuronal activity and a well-deﬁned 24-h rhythm of LFP          Thus, in the context of an animal population, circadian clocks
+          amplitude in the SCN and the NAc. Interestingly, the blocks of            together with environmental rhythms create more uniformity
+          neuronal activity correspond to phases of locomotor activity and          amongindividuals at the level of brain activity, which presumably
+          inactivity and thus reect the rhythmic and arrhythmic behavior of        translates into greater consistency of behavior across the day in
+          wild-type and Cry1/2−/− mice, respectively. In wild-type animals,         the group. The robustness of this notion is further supported by
+          rhythms occur under LD and DD conditions, however, under DD,              the stronger separation of Cry1/2−/− animals’ activity in the
+          their amplitude is signiﬁcantly reduced and the phase of                  multidimensional dataspace and similar contributions of all
+          individual LFP frequencies is more variable. In contrast, in              frequency components to this variance. In general, we were able
+          Molecular Psychiatry (2025) 30:1859–1875
+                                                                  P. Volkmann et al.
+       1872
+             to observe consistent effects of disruptions of both endogenous            importance of gap junctions in SCN neurons [77], coupling and
+             and exogenous clocks on the different frequency components of              synchronizing their electrical activity. It has also been shown that
+             our LFP recordings across all analyzed parameters.                         action potentials in SCN neurons contribute to maintaining
+                To ensure that our recordings actually capture underlying               population synchronicity [78]. As we recorded from the extra-
+             neuronal ensemble phenomena, we screened them for neural                   cellular space, we can only make inferences about individual
+             oscillatory events. Being able to detect them throughout our data          neurons’ activity. Based on the assumption that their synchronicity
+             demonstrates that the captured spectral time series contain true           and the directedness of their activity shapes the LFP we recorded
+             LFP frequency components and therefore allowed us to study                 [58], one might still speculate about network properties within the
+             their modulation in the SCN and NAc over the course of 24h in              SCN. In Cry−/− animals, we saw increased LFP amplitude and
+             freely moving animals. In contrast, most previous research on              abnormal rhythms at the same time. Here, the molecular
+             neuronal ensemble activity and network oscillations has focused            machinery for cellular oscillations is abolished, so mutual
+             on cortex and hippocampus, only examined single frequency                  dynamics between neurons to reinforce synchronicity and
+             bands, explored only short time scales, and investigated their             rhythmicity, as described for the intact SCN [79], cannot persist.
+             relation to speciﬁc tasks [27, 70–72].                                     Theinterceptive and corrective dynamics of individually ﬁring SCN
+                Our results show that similar to the 24-hour regulation of              neurons in wild-type animals [80] pointing in different directions
+             spectral activity, the properties of the underlying neural oscillatory     andpartially cancelling each other out might cause their relatively
+             events in the SCN and the NAc are also modulated by circadian              lower LFP amplitude. Blunt coupling of impulsive neuronal activity
+             factors. Endogenous clocks have inuence on the oscillatory                without individual dynamics, on the other hand, leads to higher
+             power and the light regimen affects event intervals.                       overall synchronicity on a population level, but less rhythmicity
+                While our study design allowed us to identify remarkable                and regularity over 24-h timespans in Cry1/2−/− animals. Finally,
+             differences across all frequency bands analyzed, alpha and                 several independent studies could establish connections between
+             gamma bands stand out in several spectral time series analyses             expression of components of the TTL and the regulation of ion
+             and appear as pronounced frequencies in neural oscillatory                 channels in the SCN [17], hinting towards possible explanatory
+             events. This is of particular interest as they have already been           frameworks for the increase of LFP amplitude observed in this
+             extensively addressed in previous studies and our data can                 study. Yet, it remains unclear how the individual elements of the
+             complement these results which have been rather inconsistent so            molecular machinery synergistically give rise to circadian patterns
+             far. One experimental paradigm revealed that alpha-gamma cross-            of electrical activity in the SCN.
+             frequency phase synchrony correlates with mental arithmetic task              The NAc, on the other hand, has been found to mainly consist
+             demand [73], suggesting functional cohesion. In contrast, in               of neurons that do not generate spontaneous ﬁring and that
+             human spatial attention experiments, alpha and gamma have                  largely depend on inputs from other brain regions such as the
+             beenshowntodisplaydifferential temporal modulation relative to             cortex or limbic areas [81]. One study could establish a functional
+             a task stimulus and, in addition, to encode distinct features of task      role for gap junctions in the NAc [82], however, it seems unlikely
+             predictability [74], suggesting an independent mode of action.             that they play a similar role as reported for the SCN. NAc neurons
+             Finally, investigations in humans and macaques have revealed               show rhythmic behavior, as further evidenced by our study, and
+             that alpha waves phasically modulate gamma activity and                    also their gene and protein expression have been shown to be
+             suppress    neuronal    ﬁring   [75],  arguing   for   a hierarchical      under circadian regulation [28, 31, 83]. Interestingly, in a different
+             relationship.                                                              study Clock19 mice were shown to display deﬁcits in low-gamma
+                Our analyses of alpha and gamma show for the ﬁrst time that             cross-frequency phase coupling and neuronal phase locking in the
+             they are differentially modulated throughout the day in freely             NAc [84] and dysfunctional gamma oscillatory tuning was linked
+             behaving animals which can be interpreted as accordance with               to reduced anxiety in these animals [85], further emphasizing the
+             the ﬁndings of [74]. Linear correlation between alpha and gamma            functional connection between the endogenous clock, neuronal
+             frequency bands displays the lowest values. And in PCA, their              activity, and behavior. While only insufﬁciently characterized
+             alignment is orthogonal, which emphasizes that they might                  indirect projections from the SCN to the NAc exist, the NAc
+             convey complementary information beyond the cortex, and that               seems to play an independent role in sleep-wake regulation [86].
+             this might be the case throughout the entire 24-hour day. The              Our experiments did not speciﬁcally test any functional organiza-
+             latter is supported by the fact that circadian sine-wave oscillations      tion of the two areas. Yet, the results from Granger causality
+             of alpha and gamma peak in antiphase in wild-type animals. As              analysis hint towards a hierarchical relationship between SCN and
+             revealed by PCA, both alpha bands show the biggest contribution            NAc, where SCN activity dictates broad activity levels in the NAc
+             to variation in our data and substantially distinguish wild-type           over the course of the day.
+             from Cry1/2−/− animals with their decrease in linear correlation              Studies on different neurophysiological systems have already
+             during DD. Accordingly, coherence measurements show that                   shown that LFPs are not simple passive representations of a
+             noticeable differences occur predominantly in the alpha bands              systems’ dynamical state, but can actively guide information
+             (around 10Hz), with increased coherence in Cry1/2−/− animals               processing [87, 88] and have explanatory value for neuropsychia-
+             during DD. Both gamma bands, on the other hand, show the                   tric conditions [76]. It is known that in humans both endogenous
+             highest sine-wave amplitudes, the lowest deviation from 24-hour            circadian characteristics, caused by polymorphisms of clock genes,
+             periods in wild-type animals, and the lowest sample entropy                andexogenousdisturbances, such as shift work, often signiﬁcantly
+             values. Our sine wave analyses reveal that their individual                increase the probability of developing, e.g., mental disorders
+             circadian pattern is dependent on an intact endogenous circadian           [89–91]. Likewise, exogenous circadian perturbations in rodents
+             clock and environmental rhythms. Thus, we identify alpha and               can cause behavioral deﬁcits resembling neuropsychiatric dis-
+             gamma frequency contents as promising targets for further                  orders [92–94]. Speciﬁcally related to our model, recent studies
+             dissection of spectrally directed connectivity [76], especially in         have shown that Cry1/2−/− animals display anxiety-like behavior
+             the context of its circadian modulation.                                   and restlessness [95, 96] as well as reduced alcohol preference
+                In addition to the new insights gained from our study it raises         with an increased motivation to obtain it [92]. Our present study
+             questions how these complex dynamical activity changes of                  now shows that in these mice, even when kept in LD, local
+             groups of neurons emerge from the molecular clock deﬁciency in             neuronal activity and its frequency components are signiﬁcantly
+                    −/−
+             Cry1/2      animals and to what extent the changes in neuronal             affected in diurnal distribution of activity, circadian periods,
+             activity based on circadian disturbances might be related to the           amplitude, and phase. We have previously suggested that such
+             development of pathologies. Previous studies have described the            changes may disrupt cross-communication between brain regions
+                                                                                                                      Molecular Psychiatry (2025) 30:1859–1875
+                                                                                                         P. Volkmann et al.
+                                                                                                                                                                                                1873
+             due to perturbation of temporal synchronization or separation of                            14. Farajnia S, Michel S, Deboer T, vanderLeest HT, Houben T, Rohling JHT, et al.
+             their activities and lead to impaired behavior and susceptibility to                            Evidence for neuronal desynchrony in the aged suprachiasmatic nucleus clock. J
+             pathologies [97]. Taken together, the changes in circadian and                                  Neurosci. 2012;32:5891–9.
+             non-circadian neuronal activity patterns, as shown here in the                              15. Ralph MR, Foster RG, Davis FC, Menaker M. Transplanted suprachiasmatic nucleus
+             NAc, could, for example, contribute to the above-mentioned                                      determines circadian period. Science. 1990;247:975–8.
+             reward-related deﬁcits of Cry1/2−/− mice [92, 98, 99].                                      16. Im C, Seo J-M. A review of electrodes for the electrical brain signal recording.
+                In summary, our study describes for the ﬁrst time that integrity                             Biomed Eng Lett. 2016;6:104–12.
+             of both endogenous circadian and environmental diurnal rhythms                              17. Belle MD, Allen CN. The circadian clock: a tale of genetic–electrical interplay and
+                                                                                                             synaptic integration. Curr Opin Physiol. 2018;5:75–79.
+             is fundamental for electrical coordination of neuronal ensemble                             18. Iyer AR, Sheeba V. A new player in circadian networks: Role of electrical synapses
+             dynamicsin the SCN and the NAc and that it affects a multitude of                               in regulating functions of the circadian clock. Front Physiol. 2022;13:968574.
+             emergent properties, such as circadian rhythmicity, LFP amplitude                           19. Koronowski KB, Sassone-Corsi P. Communicating clocks shape circadian home-
+             as well as correlation, regularity, and entropy of their electrical                             ostasis. Science. 2021;371:eabd0951.
+             activity.   Interestingly,      this   involves not only the temporal                       20. McCauley JP, Petroccione MA, D’Brant LY, Todd GC, Afﬁnnih N, Wisnoski JJ, et al.
+             coordination of neuronal activity over the time span of a day,                                  Circadian modulation of neurons and astrocytes controls synaptic plasticity in
+             but also in the range of hours, minutes, seconds, and milliseconds.                             hippocampal area CA1. Cell Rep. 2020;33:108255.
+             It also involves properties of neuronal functions within a brain                            21. Tokuda IT, Ono D, Honma S, Honma K-I, Herzel H. Coherency of circadian rhythms
+             region, between brain regions, and even between individual                                      in the SCN is governed by the interplay of two coupling factors. PLoS Comput
+                                                                                                             Biol. 2018;14:e1006607.
+             animals in a group. Thus, from our point of view, the scope of how                          22. Albus H, Bonnefont X, Chaves I, Yasui A, Doczy J, Van Der Horst GTJ, et al.
+             circadian disturbances inuence brain activity and directly link to                             Cryptochrome-deﬁcient mice lack circadian electrical activity in the suprachias-
+             the development of neuropsychiatric disorders becomes clearer                                   matic nuclei. Curr Biol. 2002;12:1130–3.
+             and more evident. Conversely, it also shows that chronother-                                23. Katzner S, Nauhaus I, Benucci A, Bonin V, Ringach DL, Carandini M. Local origin of
+             apeutic measures aiming at exogenous stabilization of circadian                                 ﬁeld potentials in visual cortex. Neuron. 2009;61:35–41.
+             rhythms can have positive effects of great magnitude on brain                               24. Mitzdorf U. Current source-density method and application in cat cerebral cortex:
+             functionality.                                                                                  investigation  of   evoked potentials and EEG phenomena. Physiol Rev.
+                                                                                                             1985;65:37–100.
+                                                                                                         25. Liu D, Li J, Wu J, Dai J, Chen X, Huang Y, et al. Monochromatic blue light activates
+                                                                                                             suprachiasmatic nucleus neuronal activity and promotes arousal in mice under
+             DATA AVAILABILITY                                                                               sevourane anesthesia. Front Neural Circuits. 2020;14:55.
+             Further information and requests for resources should be directed to and will be            26. Inouye ST, Kawamura H. Persistence of circadian rhythmicity in a mammalian
+             fulﬁlled by the lead contact, Paul Volkmann (paul.volkmann@dpag.ox.ac.uk). The                  hypothalamic ‘island’ containing the suprachiasmatic nucleus. Proc Natl Acad Sci
+             datasets generated and analyzed during the current study are available from the                 USA. 1979;76:5962–6.
+             corresponding author on reasonable request.                                                 27. Frederick A, Bourget-Murray J, Chapman CA, Amir S, Courtemanche R. Diurnal
+                                                                                                             inuences on electrophysiological oscillations and coupling in the dorsal striatum
+                                                                                                             and cerebellar cortex of the anesthetized rat. Front Syst Neurosci. 2014;8:145.
+             CODE AVAILABILITY                                                                           28. Landgraf D, Long JE, Welsh DK. Depression-like behaviour in mice is associated
+             The code generated in the current study as well as any additional information                   with disrupted circadian rhythms in nucleus accumbens and periaqueductal grey.
+             required to reanalyze the data reported in this paper are available from the lead               Eur J Neurosci. 2016;43:1309–20.
+             contact upon request.                                                                       29. Huang X, Tao Q, Ren C. A comprehensive overview of the neural mechanisms of
+                                                                                                             light therapy. Neurosci Bull. 2024;40:350–62.
+                                                                                                         30. Michel S, Nakamura TJ, Meijer JH, Colwell CS Electrophysiological approaches to
+             REFERENCES                                                                                      studying the suprachiasmatic nucleus. In: Brown SA, editor. Circadian Clocks, vol.
+              1. Hyman SE. Can neuroscience be integrated into the DSM-V? Nat Rev Neurosci.                  2130, New York, NY: Springer US; 2021. p. 303-24.
+                 2007;8:725–32.                                                                          31. Becker-Krail DD, Walker WH, Nelson RJ. The ventral tegmental area and nucleus
+              2. Uhlhaas PJ, Singer W. Neural synchrony in brain disorders: relevance for cognitive          accumbens as circadian oscillators: implications for drug abuse and substance
+                 dysfunctions and pathophysiology. Neuron. 2006;52:155–68.                                   use disorders. Front Physiol. 2022;13:886704.
+              3. Patke A, Young MW, Axelrod S. Molecular mechanisms and physiological                    32. Papazoglou A, Lundt A, Wormuth C, Ehninger D, Henseler C, Soós J, et al. Non-
+                 importance of circadian rhythms. Nat Rev Mol Cell Biol. 2020;21:67–84.                      restraining EEG Radiotelemetry: Epidural and Deep Intracerebral Stereotaxic EEG
+              4. Hardin PE, Hall JC, Rosbash M. Feedback of the Drosophila period gene product               Electrode Placement. JoVE. 2016:54216.
+                 on circadian cycling of its messenger RNA levels. Nature. 1990;343:536–40.              33. Fernandez LMJ, Comte J-C, Le Merre P, Lin J-S, Salin P-A, Crochet S Highly
+              5. Konopka RJ, Benzer S. Clock mutants of Drosophila melanogaster. Proc Natl Acad              Dynamic Spatiotemporal Organization of Low-Frequency Activities During
+                 Sci USA. 1971;68:2112–6.                                                                    Behavioral    States   in   the   Mouse     Cerebral    Cortex.   Cereb    Cortex.
+              6. Stephan FK, Zucker I. Circadian rhythms in drinking behavior and locomotor                  2016:cercor;bhw311v1.
+                 activity of rats are eliminated by hypothalamic lesions. Proc Natl Acad Sci USA.        34. Soltani S, Chauvette S, Bukhtiyarova O, Lina J-M, Dubé J, Seigneur J, et al.
+                 1972;69:1583–6.                                                                             Sleep–wake cycle in young and older mice. Front Syst Neurosci. 2019;13:51.
+              7. Zehring WA, Wheeler DA, Reddy P, Konopka RJ, Kyriacou CP, Rosbash M, et al.             35. Weiergräber M, Henry M, Hescheler J, Smyth N, Schneider T. Electrocortico-
+                 P-element transformation with period locus DNA restores rhythmicity to mutant,              graphic and deep intracerebral EEG recording in mice using a telemetry system.
+                 arrhythmic drosophila melanogaster. Cell. 1984;39:369–76.                                   Brain Res Protoc. 2005;14:154–64.
+              8. Hastings MH, Maywood ES, Brancaccio M. Generation of circadian rhythms in the           36. Lundt A, Wormuth C, Siwek ME, Müller R, Ehninger D, Henseler C, et al. EEG
+                 suprachiasmatic nucleus. Nat Rev Neurosci. 2018;19:453–69.                                  radiotelemetry in small laboratory rodents: a powerful state-of-the art approach
+              9. Libert S, Bonkowski MS, Pointer K, Pletcher SD, Guarente L. Deviation of innate             in neuropsychiatric, neurodegenerative, and epilepsy research. Neural Plasticity.
+                 circadian period from 24 h reduces longevity in mice: Impact of circadian clock             2016;2016:1–19.
+                 on longevity. Aging Cell. 2012;11:794–800.                                              37. Paxinos G, Franklin KBJ Paxinos and Franklin’s The mouse brain in stereotaxic
+             10. Mohawk JA, Green CB, Takahashi JS. Central and peripheral circadian clocks in               coordinates. Fifth edition. London: Academic Press, an imprint of Elsevier; 2019.
+                 mammals. Annu Rev Neurosci. 2012;35:445–62.                                             38. Heideman M, Johnson D, Burrus C. Gauss and the history of the fast fourier
+             11. Gekakis N, Staknis D, Nguyen HB, Davis FC, Wilsbacher LD, King DP, et al. Role of           transform. IEEE ASSP Mag. 1984;1:14–21.
+                 the   CLOCK protein in the mammalian circadian mechanism. Science.                      39. R Core Team. R: A language and environment for statistical computing. R
+                 1998;280:1564–9.                                                                            Foundation for Statistical Computing, Vienna, Austria. https://www.R-project.org.
+             12. Kume K, Zylka MJ, Sriram S, Shearman LP, Weaver DR, Jin X, et al. mCRY1 and                 2022.
+                 mCRY2 are essential components of the negative limb of the circadian clock              40. Markowski CA, Markowski EP. Conditions for the effectiveness of a preliminary
+                 feedback loop. Cell. 1999;98:193–205.                                                       test of variance. Am Statistician. 1990;44:322–6.
+             13. Weaver DR. The suprachiasmatic nucleus: a 25-year retrospective. J Biol Rhythms.        41. Wickham H. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New
+                 1998;13:100–12.                                                                             York. ISBN 978-3-319-24277-4. 2016. https://ggplot2.tidyverse.org.
+             Molecular Psychiatry (2025) 30:1859–1875
+                                                                               P. Volkmann et al.
+        1874
+                42. Kolde R pheatmap: Pretty Heatmaps. R package version 1.0.12. 2019. https://           74. Bauer M, Stenner M-P, Friston KJ, Dolan RJ. Attentional modulation of alpha/beta
+                    github.com/raivokolde/pheatmap.                                                           and gamma oscillations reect functionally distinct processes. J Neurosci.
+                43. signal developers. signal: Signal processing. 2023. https://r-forge.r-project.org/        2014;34:16117–25.
+                    projects/signal.                                                                      75. Jensen O. Distractor inhibition by alpha oscillations is controlled by an indirect
+                44. Torrence C, Compo GP. A practical guide to wavelet analysis. Bull Am Meteor Soc.          mechanism governed by goal-relevant information. Commun Psychol. 2024;2:36.
+                    1998;79:61–78.                                                                        76. Friston KJ, Bastos AM, Pinotsis D, Litvak V. LFP and oscillations—what do they tell
+                45. Greenblatt RE, Pieger ME, Ossadtchi AE. Connectivity measures applied to                 us? Curr Opin Neurobiol. 2015;31:1–6.
+                    human brain electrophysiological data. J Neurosci Methods. 2012;207:1–16.             77. Colwell CS. Rhythmic coupling among cells in the suprachiasmatic nucleus. J
+                46. Karvat G, Schneider A, Alyahyay M, Steenbergen F, Tangermann M, Diester I. Real-          Neurobiol. 2000;43:379–88.
+                    time detection of neural oscillation bursts allows behaviourally relevant neuro-      78. Yamaguchi S, Isejima H, Matsuo T, Okura R, Yagita K, Kobayashi M, et al. Syn-
+                    feedback. Commun Biol. 2020;3:72.                                                         chronization of cellular clocks in the suprachiasmatic nucleus. Science.
+                47. Gouhier TC, Grinsted A, Simko V R package biwavelet: Conduct Univariate and               2003;302:1408–12.
+                    Bivariate Wavelet Analyses. (Version 0.20.21), 2021. https://github.com/tgouhier/     79. Welsh DK, Takahashi JS, Kay SA. Suprachiasmatic nucleus: cell autonomy and
+                    biwavelet.                                                                                network properties. Annu Rev Physiol. 2010;72:551–77.
+                48. Zeileis A, Grothendieck G zoo: S3 Infrastructure for Regular and Irregular Time       80. Welsh DK, Logothetis DE, Meister M, Reppert SM. Individual neurons dissociated
+                    Series. J Stat Soft. 2005;14.                                                             from rat suprachiasmatic nucleus express independently phased circadian ﬁring
+                49. Ruf T. The lomb-scargle periodogram in biological rhythm research: analysis of            rhythms. Neuron. 1995;14:697–706.
+                    incomplete and unequally spaced time-series. Biol Rhythm Res. 1999;30:178–201.        81. Floresco SB. The nucleus accumbens: an interface between cognition, emotion,
+                50. Trapletti A, Hornik K tseries: Time Series Analysis and Computational Finance. R          and action. Annu Rev Psychol. 2015;66:25–52.
+                    package version 0.10-43. 2023.                                                        82. Kokarovtseva L, Jaciw-Zurakiwsky T, Mendizabal Arbocco R, Frantseva MV, Perez
+                51. Sueur J, Aubin T, Simonis C. Seewave, a free modular tool for sound analysis and          Velazquez JL. Excitability and gap junction–mediated mechanisms in nucleus
+                    synthesis. Bi oacoustics. 2008;18:213–26.                                                 accumbens      regulate   self-stimulation  reward    in   rats.   Neuroscience.
+                52. Komsta L, Novomestky F moments: Moments, Cumulants, Skewness, Kurtosis and                2009;159:1257–63.
+                    Related Tests. 2022. http://www.komsta.net.                                           83. DePoy LM, Petersen KA, Zong W, Ketchesin KD, Matthaei RC, Yin R, et al. Cell-type
+                53. Richman JS, Moorman JR. Physiological time-series analysis using approximate              and sex-speciﬁc rhythmic gene expression in the nucleus accumbens. Mol Psy-
+                    entropy   and sample entropy. Am J Physiol-Heart Circulatory Physiol.                     chiatry. 2024. https://doi.org/10.1038/s41380-024-02569-7.
+                    2000;278:H2039–H2049.                                                                 84. Dzirasa K, Coque L, Sidor MM, Kumar S, Dancy EA, Takahashi JS, et al. Lithium
+                54. Tomcala J TSEntropies: Time Series Entropies. R package version 0.9, 2018.                ameliorates nucleus accumbens phase-signaling dysfunction in a genetic mouse
+                    https://CRAN.R-project.org/package=TSEntropies.                                           model of mania. J Neurosci. 2010;30:16314–23.
+                55. Zeileis A, Hothorn T Diagnostic Checking in Regression Relationships. 2002.           85. Dzirasa K, McGarity DL, Bhattacharya A, Kumar S, Takahashi JS, Dunson D, et al.
+                56. Vu V ggbiplot: A ggplot2 based biplot. https://github.com/vqv/ggbiplot. 2011.             Impaired Limbic Gamma Oscillatory Synchrony during Anxiety-Related Behavior
+                57. Fransen AMM, Van Ede F, Maris E. Identifying neuronal oscillations using rhyth-           in a Genetic Mouse Model of Bipolar Mania. J Neurosci. 2011;31:6449–56.
+                    micity. NeuroImage. 2015;118:256–67.                                                  86. Oishi Y, Xu Q, Wang L, Zhang B-J, Takahashi K, Takata Y, et al. Slow-wave sleep is
+                58. Buzsáki G, Anastassiou CA, Koch C. The origin of extracellular ﬁelds and currents-        controlled by a subset of nucleus accumbens core neurons in mice. Nat Com-
+                    EEG, ECoG, LFP and spikes. Nat Rev Neurosci. 2012;13:407–20.                              mun. 2017;8:734.
+                59. Gallego-Carracedo C, Perich MG, Chowdhury RH, Miller LE, Gallego JÁ. Local ﬁeld       87. Kayser C, Montemurro MA, Logothetis NK, Panzeri S. Spike-phase coding boosts
+                    potentials reect cortical population dynamics in a region-speciﬁc and                    andstabilizes information carried by spatial and temporal spike patterns. Neuron.
+                    frequency-dependent manner. eLife. 2022;11:e73155.                                        2009;61:597–608.
+                60. Baldauf D, Desimone R. Neural mechanisms of object-based attention. Science.          88. Likhtik E, Stujenske JM, A Topiwala M, Harris AZ, Gordon JA. Prefrontal entrain-
+                    2014;344:424–7.                                                                           ment of amygdala activity signals safety in learned fear and innate anxiety. Nat
+                61. Meador KJ, Ray PG, Echauz JR, Loring DW, Vachtsevanos GJ. Gamma coherence                 Neurosci. 2014;17:106–13.
+                    and conscious perception. Neurology. 2002;59:847–54.                                  89. Boivin DB, Boudreau P, Kosmadopoulos A. Disturbance of the circadian system in
+                62. Turner JR, Wit M, Hajos T, Wit M, Howren MB, Insana S, et al. Quantitative EEG            shift work and its health impact. J Biol Rhythms. 2022;37:3–28.
+                    Including the Five Common Bandwidths (Delta, Theta, Alpha, Sigma, and Beta).          90. Jagannath A, Taylor L, Wakaf Z, Vasudevan SR, Foster RG. The genetics of circa-
+                    In: Gellman MD, Turner JR, editors. Encyclopedia of Behavioral Medicine, New              dian rhythms, sleep and health. Hum Mol Genet. 2017;26:R128–R138.
+                    York, NY: Springer New York; 2013. p. 1606-9.                                         91. Walker WH, Walton JC, DeVries AC, Nelson RJ. Circadian rhythm disruption and
+                63. Van Dongen HP, Olofsen E, VanHartevelt JH, Kruyt EW. Searching for biological             mental health. Transl Psychiatry. 2020;10:28.
+                    rhythms: peak detection in the periodogram of unequally spaced data. J Biol           92. Hühne A, Echtler L, Kling C, Stephan M, Schmidt MV, Rossner MJ, et al. Circadian
+                    Rhythms. 1999;14:617–20.                                                                  gene×environment perturbations inuence alcohol drinking in Cryptochrome-
+                64. Stevner ABA, Vidaurre D, Cabral J, Rapuano K, Nielsen SFV, Tagliazucchi E, et al.         deﬁcient mice. Addict Biol. 2022;27:e13105.
+                    Discovery of key whole-brain transitions and dynamics during human wakeful-           93. Leach G, Adidharma W, Yan L. Depression-like responses induced by daytime
+                    ness and non-REM sleep. Nat Commun. 2019;10:1035.                                         light deﬁciency in the diurnal grass rat (Arvicanthis niloticus). PLoS ONE.
+                65. Lima B, Singer W, Chen N-H, Neuenschwander S. Synchronization dynamics in                 2013;8:e57115.
+                    response to plaid stimuli in monkey V1. Cereb Cortex. 2010;20:1556–73.                94. Monje FJ, Cabatic M, Divisch I, Kim E-J, Herkner KR, Binder BR, et al. Constant
+                66. Groth D, Hartmann S, Klie S, Selbig J Principal Components Analysis. In: Reisfeld B,      Darkness Induces IL-6-Dependent Depression-Like Behavior through the NF- B
+                    Mayeno AN, editors. Computational Toxicology, 930, Totowa, NJ: Humana Press;              Signaling Pathway. J Neurosci. 2011;31:9075–83.
+                    2013. p. 527-47.                                                                      95. Hühne A, Volkmann P, Stephan M, Rossner M, Landgraf D An indepth neuro-
+                67. Shirakawa T, Honma S, Katsuno Y, Oguchi H, Honma K. Synchronization of cir-               behavioral characterization shows anxietylike traits, impaired habituation
+                    cadian ﬁring rhythms in cultured rat suprachiasmatic neurons: Synchronization of          behavior, and restlessness in male Cryptochrome deﬁcient mice. Genes, Brain
+                    neuronal rhythms in the SCN. Eur J Neurosci. 2000;12:2833–8.                              and Behavior. 2020. May. https://doi.org/10.1111/gbb.12661.
+                68. Moore RY, Speh JC. GABA is the principal neurotransmitter of the circadian sys-       96. De Bundel D, Gangarossa G, Biever A, Bonnefont X, Valjent E Cognitive dys-
+                    tem. Neurosci Lett. 1993;150:112–6.                                                       function, elevated anxiety, and reduced cocaine response in circadian clock-
+                69. Seguin C, Sporns O, Zalesky A. Brain network communication: concepts, models              deﬁcient cryptochrome knockout mice. Front Behav Neurosci. 2013;7.
+                    and applications. Nat Rev Neurosci. 2023;24:557–74.                                   97. Hühne A, Welsh DK, Landgraf D. Prospects for circadian treatment of mood
+                70. Mesgar S, Eskandari K, Karimian-Sani-Varjovi H, Salemi-Mokri-Boukani P, Hagh-             disorders. Ann Med. 2018;50:637–54.
+                    parast A. The dopaminergic system modulates the electrophysiological activity of      98. Bayassi-Jakowicka M, Lietzau G, Czuba E, Patrone C, Kowiaski P. More than
+                    the suprachiasmatic nucleus dependent on the circadian cycle. Neurochem Res.              addiction—the nucleus accumbens contribution to development of mental dis-
+                    2023;48:3420–9.                                                                           orders and neurodegenerative diseases. IJMS. 2022;23:2618.
+                71. Buzsáki G, Draguhn A. Neuronal oscillations in cortical networks. Science.            99. Grueter BA, Rothwell PE, Malenka RC. Integrating synaptic plasticity and striatal
+                    2004;304:1926–9.                                                                          circuit function in addiction. Curr Opin Neurobiol. 2012;22:545–51.
+                72. Donnelly NA, Holtzman T, Rich PD, Nevado-Holgado AJ, Fernando ABP, Van Dijck
+                    G, et al. Oscillatory activity in the medial prefrontal cortex and nucleus accum-
+                    bens correlates with impulsivity and reward outcome. PLoS ONE. 2014;9:e111300.        ACKNOWLEDGEMENTS
+                73. Palva JM, Palva S, Kaila K. Phase synchrony among neuronal oscillations in the        We thank Cassandra Deichsel for advice on implantation of transmitters and LFP
+                    human cortex. J Neurosci. 2005;25:3962–72.                                            probes and Cristina-Luminita Baciu for help with the DSI telemetry system. This work
+                                                                                                                                              Molecular Psychiatry (2025) 30:1859–1875
+                                                                                                        P. Volkmann et al.
+                                                                                                                                                                                              1875
+             was supported by Deutsche Forschungsgemeinschaft (Emmy Noether fellowship:                 ADDITIONAL INFORMATION
+             LA4126) to D.L. and the Förderprogramm für Forschung und Lehre of the Faculty of           Supplementary information The online version contains supplementary material
+             Medicine at LMU Munich to P.V. and A.E.I.G.                                                available at https://doi.org/10.1038/s41380-024-02795-z.
+                                                                                                        Correspondence and requests for materials should be addressed to Paul Volkmann.
+             AUTHOR CONTRIBUTIONS                                                                       Reprints and permission information is available at http://www.nature.com/
+             PV was involved in conceiving the study, establishing protocols for implantation of        reprints
+             transmitter and probes, and recording and data processing; he performed data
+             analysis and drafted the manuscript. AEIG performed the majority of surgeries and          Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims
+             recordings as well as all imaging of brain slices. AHL was involved in conceiving the      in published maps and institutional afﬁliations.
+             study, establishing protocols for implantation of transmitter and probes, and
+             recording and data processing as well as their implementation. NM was involved in
+             establishing protocols for implantation of transmitter and probes as well as recording
+             anddataprocessing. JB was involved in establishing the protocols for implantation of
+             transmitter and probes and their implementation. TE was involved in animal and data                         Open Access This article is licensed under a Creative Commons
+             handling. HP provided technical expertise and helped with data processing. MJR                              Attribution 4.0 International License, which permits use, sharing,
+             made technical support available. DL conceived the study, supervised the work,             adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+             designed and created the ﬁgures, and drafted the manuscript. All authors were              appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+             involved in manuscript editing and approving the ﬁnal version.                             Commonslicence,andindicateifchangesweremade.Theimagesorotherthirdparty
+                                                                                                        material in this article are included in the article’s Creative Commons licence, unless
+                                                                                                        indicated otherwise in a credit line to the material. If material is not included in the
+             FUNDING                                                                                    article’s Creative Commonslicenceandyourintendeduseisnotpermittedbystatutory
+             Open Access funding enabled and organized by Projekt DEAL.                                 regulation or exceeds the permitted use, you will need to obtain permission directly
+                                                                                                        from the copyright holder. To view a copy of this licence, visit http://
+                                                                                                        creativecommons.org/licenses/by/4.0/.
+             COMPETING INTERESTS
+             The authors declare no competing interests.                                                © The Author(s) 2024
+             Molecular Psychiatry (2025) 30:1859–1875

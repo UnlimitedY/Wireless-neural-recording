@@ -1,0 +1,185 @@
+{
+  "n_trials": 234,
+  "window_ms": [
+    -250.0,
+    250.0
+  ],
+  "note": "Current GUI-exported H5 contains lfp_v, raster_v and sen_v. ESA decoding here uses the exported 16-channel raster/event stream as the ESA source.",
+  "lfp_config": {
+    "channels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "median_reference": true,
+    "bands": [
+      [
+        "theta",
+        [
+          4.0,
+          8.0
+        ],
+        1.0
+      ],
+      [
+        "beta",
+        [
+          13.0,
+          30.0
+        ],
+        1.0
+      ],
+      [
+        "low_gamma",
+        [
+          30.0,
+          55.0
+        ],
+        1.0
+      ],
+      [
+        "high_gamma",
+        [
+          65.0,
+          120.0
+        ],
+        1.0
+      ]
+    ]
+  },
+  "esa_config": {
+    "channels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "bin_ms": 25.0
+  },
+  "imu_config": {
+    "channels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "bin_ms": 25.0,
+    "lowpass_hz": 40.0,
+    "add_magnitude_features": true
+  },
+  "outcome_decoding": {
+    "LFP": {
+      "accuracy": 0.5811965811965812,
+      "balanced_accuracy": 0.5681159420289855,
+      "confusion_matrix": [
+        [
+          37,
+          32
+        ],
+        [
+          66,
+          99
+        ]
+      ]
+    },
+    "ESA": {
+      "accuracy": 0.6452991452991453,
+      "balanced_accuracy": 0.5840579710144927,
+      "confusion_matrix": [
+        [
+          30,
+          39
+        ],
+        [
+          44,
+          121
+        ]
+      ]
+    },
+    "IMU": {
+      "accuracy": 0.6068376068376068,
+      "balanced_accuracy": 0.5567852437417655,
+      "confusion_matrix": [
+        [
+          30,
+          39
+        ],
+        [
+          53,
+          112
+        ]
+      ]
+    }
+  },
+  "choice_decoding": {
+    "LFP": {
+      "accuracy": 0.5726495726495726,
+      "balanced_accuracy": 0.5519756838905775,
+      "confusion_matrix": [
+        [
+          92,
+          48
+        ],
+        [
+          52,
+          42
+        ]
+      ]
+    },
+    "ESA": {
+      "accuracy": 0.6196581196581197,
+      "balanced_accuracy": 0.6052431610942249,
+      "confusion_matrix": [
+        [
+          95,
+          45
+        ],
+        [
+          44,
+          50
+        ]
+      ]
+    },
+    "IMU": {
+      "accuracy": 0.6752136752136753,
+      "balanced_accuracy": 0.6551671732522797,
+      "confusion_matrix": [
+        [
+          106,
+          34
+        ],
+        [
+          42,
+          52
+        ]
+      ]
+    }
+  }
+}

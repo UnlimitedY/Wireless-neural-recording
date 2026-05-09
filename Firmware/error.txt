@@ -1,0 +1,8 @@
+E:/wirelessNeuralRecording-mouse/firmware/LFP/test1/test1/ESB_wireless/ESB_wireless.c:14:2: error: #error "Mode0 default short packet layout must remain 138 bytes"
+   14 | #error "Mode0 default short packet layout must remain 138 bytes"
+      |  ^~~~~
+E:/wirelessNeuralRecording-mouse/firmware/LFP/test1/test1/ESB_wireless/ESB_wireless.c:18:2: error: #error "Mode0 default max packet layout must remain 154 bytes"
+   18 | #error "Mode0 default max packet layout must remain 154 bytes"
+      |  ^~~~~
+E:/wirelessNeuralRecording-mouse/firmware/LFP/test1/test1/ESB_wireless/ESB_wireless.c:22:2: error: #error "Mode0 12-bit max packet layout must remain 220 bytes"
+   22 | #error "Mode0 12-bit max packet layout must remain 220 bytes"

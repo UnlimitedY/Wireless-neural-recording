@@ -1,0 +1,461 @@
+{
+  "schema_version": 3,
+  "generated_date": "2026-04-09",
+  "title": "Final EDF to RHD2132 to blue-box channel mapping",
+  "summary": {
+    "sampled_rhd2132_channels": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+    "sampled_bluebox_channels": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+    "bluebox_reference_channel": 5,
+    "single_global_mapping_exists": false,
+    "edf_baselines": [
+      "mode0 lfp.edf baseline",
+      "mode3 family baseline"
+    ]
+  },
+  "derivation": {
+    "firmware_fact": "Firmware samples RHD2132 convert channels 8 through 23.",
+    "schematic_fact": "The user-provided schematic maps RHD in0..in15 to nets IN0..IN15.",
+    "pcb_fact": "The user provided a corrected final RHD8..23 to blue-box mapping and that correction overrides the earlier image-derived estimate.",
+    "note": "Blue-box channel 5 is REF and is not part of the 16 sampled neural channels."
+  },
+  "bluebox_reference": {
+    "bluebox_channel": 5,
+    "net": "REF",
+    "sampled_by_rhd2132_8_to_23": false
+  },
+  "silicon_probe_linear_16": {
+    "description": "One 16-site silicon electrode arranged as a single vertical column. Site order is bottom to top: site0 to site15.",
+    "site_order": "bottom_to_top",
+    "site_to_bluebox_channels": [8, 1, 7, 2, 9, 16, 6, 3, 10, 17, 4, 15, 11, 14, 12, 13],
+    "final_mapping": [
+      {
+        "site": 0,
+        "bluebox_channel": 8,
+        "rhd2132_channel": 11,
+        "mode0_edf_label": "Ch3",
+        "mode0_edf_channel_index": 3,
+        "mode3_shared_index": 5,
+        "mode3_lfp_label": "Ch5",
+        "mode3_esa_label": "ESA5",
+        "mode3_raster_label": "Raster5"
+      },
+      {
+        "site": 1,
+        "bluebox_channel": 1,
+        "rhd2132_channel": 20,
+        "mode0_edf_label": "Ch12",
+        "mode0_edf_channel_index": 12,
+        "mode3_shared_index": 14,
+        "mode3_lfp_label": "Ch14",
+        "mode3_esa_label": "ESA14",
+        "mode3_raster_label": "Raster14"
+      },
+      {
+        "site": 2,
+        "bluebox_channel": 7,
+        "rhd2132_channel": 8,
+        "mode0_edf_label": "Ch0",
+        "mode0_edf_channel_index": 0,
+        "mode3_shared_index": 2,
+        "mode3_lfp_label": "Ch2",
+        "mode3_esa_label": "ESA2",
+        "mode3_raster_label": "Raster2"
+      },
+      {
+        "site": 3,
+        "bluebox_channel": 2,
+        "rhd2132_channel": 23,
+        "mode0_edf_label": "Ch15",
+        "mode0_edf_channel_index": 15,
+        "mode3_shared_index": 1,
+        "mode3_lfp_label": "Ch1",
+        "mode3_esa_label": "ESA1",
+        "mode3_raster_label": "Raster1"
+      },
+      {
+        "site": 4,
+        "bluebox_channel": 9,
+        "rhd2132_channel": 9,
+        "mode0_edf_label": "Ch1",
+        "mode0_edf_channel_index": 1,
+        "mode3_shared_index": 3,
+        "mode3_lfp_label": "Ch3",
+        "mode3_esa_label": "ESA3",
+        "mode3_raster_label": "Raster3"
+      },
+      {
+        "site": 5,
+        "bluebox_channel": 16,
+        "rhd2132_channel": 22,
+        "mode0_edf_label": "Ch14",
+        "mode0_edf_channel_index": 14,
+        "mode3_shared_index": 0,
+        "mode3_lfp_label": "Ch0",
+        "mode3_esa_label": "ESA0",
+        "mode3_raster_label": "Raster0"
+      },
+      {
+        "site": 6,
+        "bluebox_channel": 6,
+        "rhd2132_channel": 10,
+        "mode0_edf_label": "Ch2",
+        "mode0_edf_channel_index": 2,
+        "mode3_shared_index": 4,
+        "mode3_lfp_label": "Ch4",
+        "mode3_esa_label": "ESA4",
+        "mode3_raster_label": "Raster4"
+      },
+      {
+        "site": 7,
+        "bluebox_channel": 3,
+        "rhd2132_channel": 21,
+        "mode0_edf_label": "Ch13",
+        "mode0_edf_channel_index": 13,
+        "mode3_shared_index": 15,
+        "mode3_lfp_label": "Ch15",
+        "mode3_esa_label": "ESA15",
+        "mode3_raster_label": "Raster15"
+      },
+      {
+        "site": 8,
+        "bluebox_channel": 10,
+        "rhd2132_channel": 12,
+        "mode0_edf_label": "Ch4",
+        "mode0_edf_channel_index": 4,
+        "mode3_shared_index": 6,
+        "mode3_lfp_label": "Ch6",
+        "mode3_esa_label": "ESA6",
+        "mode3_raster_label": "Raster6"
+      },
+      {
+        "site": 9,
+        "bluebox_channel": 17,
+        "rhd2132_channel": 19,
+        "mode0_edf_label": "Ch11",
+        "mode0_edf_channel_index": 11,
+        "mode3_shared_index": 13,
+        "mode3_lfp_label": "Ch13",
+        "mode3_esa_label": "ESA13",
+        "mode3_raster_label": "Raster13"
+      },
+      {
+        "site": 10,
+        "bluebox_channel": 4,
+        "rhd2132_channel": 13,
+        "mode0_edf_label": "Ch5",
+        "mode0_edf_channel_index": 5,
+        "mode3_shared_index": 7,
+        "mode3_lfp_label": "Ch7",
+        "mode3_esa_label": "ESA7",
+        "mode3_raster_label": "Raster7"
+      },
+      {
+        "site": 11,
+        "bluebox_channel": 15,
+        "rhd2132_channel": 18,
+        "mode0_edf_label": "Ch10",
+        "mode0_edf_channel_index": 10,
+        "mode3_shared_index": 12,
+        "mode3_lfp_label": "Ch12",
+        "mode3_esa_label": "ESA12",
+        "mode3_raster_label": "Raster12"
+      },
+      {
+        "site": 12,
+        "bluebox_channel": 11,
+        "rhd2132_channel": 14,
+        "mode0_edf_label": "Ch6",
+        "mode0_edf_channel_index": 6,
+        "mode3_shared_index": 8,
+        "mode3_lfp_label": "Ch8",
+        "mode3_esa_label": "ESA8",
+        "mode3_raster_label": "Raster8"
+      },
+      {
+        "site": 13,
+        "bluebox_channel": 14,
+        "rhd2132_channel": 17,
+        "mode0_edf_label": "Ch9",
+        "mode0_edf_channel_index": 9,
+        "mode3_shared_index": 11,
+        "mode3_lfp_label": "Ch11",
+        "mode3_esa_label": "ESA11",
+        "mode3_raster_label": "Raster11"
+      },
+      {
+        "site": 14,
+        "bluebox_channel": 12,
+        "rhd2132_channel": 15,
+        "mode0_edf_label": "Ch7",
+        "mode0_edf_channel_index": 7,
+        "mode3_shared_index": 9,
+        "mode3_lfp_label": "Ch9",
+        "mode3_esa_label": "ESA9",
+        "mode3_raster_label": "Raster9"
+      },
+      {
+        "site": 15,
+        "bluebox_channel": 13,
+        "rhd2132_channel": 16,
+        "mode0_edf_label": "Ch8",
+        "mode0_edf_channel_index": 8,
+        "mode3_shared_index": 10,
+        "mode3_lfp_label": "Ch10",
+        "mode3_esa_label": "ESA10",
+        "mode3_raster_label": "Raster10"
+      }
+    ]
+  },
+  "tables": {
+    "mode0_lfp_edf": [
+      { "edf_label": "Ch0", "edf_channel_index": 0, "rhd2132_channel": 8, "bluebox_channel": 7 },
+      { "edf_label": "Ch1", "edf_channel_index": 1, "rhd2132_channel": 9, "bluebox_channel": 9 },
+      { "edf_label": "Ch2", "edf_channel_index": 2, "rhd2132_channel": 10, "bluebox_channel": 6 },
+      { "edf_label": "Ch3", "edf_channel_index": 3, "rhd2132_channel": 11, "bluebox_channel": 8 },
+      { "edf_label": "Ch4", "edf_channel_index": 4, "rhd2132_channel": 12, "bluebox_channel": 10 },
+      { "edf_label": "Ch5", "edf_channel_index": 5, "rhd2132_channel": 13, "bluebox_channel": 4 },
+      { "edf_label": "Ch6", "edf_channel_index": 6, "rhd2132_channel": 14, "bluebox_channel": 11 },
+      { "edf_label": "Ch7", "edf_channel_index": 7, "rhd2132_channel": 15, "bluebox_channel": 12 },
+      { "edf_label": "Ch8", "edf_channel_index": 8, "rhd2132_channel": 16, "bluebox_channel": 13 },
+      { "edf_label": "Ch9", "edf_channel_index": 9, "rhd2132_channel": 17, "bluebox_channel": 14 },
+      { "edf_label": "Ch10", "edf_channel_index": 10, "rhd2132_channel": 18, "bluebox_channel": 15 },
+      { "edf_label": "Ch11", "edf_channel_index": 11, "rhd2132_channel": 19, "bluebox_channel": 17 },
+      { "edf_label": "Ch12", "edf_channel_index": 12, "rhd2132_channel": 20, "bluebox_channel": 1 },
+      { "edf_label": "Ch13", "edf_channel_index": 13, "rhd2132_channel": 21, "bluebox_channel": 3 },
+      { "edf_label": "Ch14", "edf_channel_index": 14, "rhd2132_channel": 22, "bluebox_channel": 16 },
+      { "edf_label": "Ch15", "edf_channel_index": 15, "rhd2132_channel": 23, "bluebox_channel": 2 }
+    ],
+    "mode3_family": [
+      {
+        "shared_index": 0,
+        "mode3_lfp_label": "Ch0",
+        "mode3_esa_label": "ESA0",
+        "mode3_raster_label": "Raster0",
+        "mode3_rawchannel_value": 0,
+        "mode1_gui_channel": 0,
+        "mode1_spike_annotation": "Spike@Ch0",
+        "mode2_label": "Ch0",
+        "rhd2132_channel": 22,
+        "bluebox_channel": 16
+      },
+      {
+        "shared_index": 1,
+        "mode3_lfp_label": "Ch1",
+        "mode3_esa_label": "ESA1",
+        "mode3_raster_label": "Raster1",
+        "mode3_rawchannel_value": 1,
+        "mode1_gui_channel": 1,
+        "mode1_spike_annotation": "Spike@Ch1",
+        "mode2_label": "Ch1",
+        "rhd2132_channel": 23,
+        "bluebox_channel": 2
+      },
+      {
+        "shared_index": 2,
+        "mode3_lfp_label": "Ch2",
+        "mode3_esa_label": "ESA2",
+        "mode3_raster_label": "Raster2",
+        "mode3_rawchannel_value": 2,
+        "mode1_gui_channel": 2,
+        "mode1_spike_annotation": "Spike@Ch2",
+        "mode2_label": "Ch2",
+        "rhd2132_channel": 8,
+        "bluebox_channel": 7
+      },
+      {
+        "shared_index": 3,
+        "mode3_lfp_label": "Ch3",
+        "mode3_esa_label": "ESA3",
+        "mode3_raster_label": "Raster3",
+        "mode3_rawchannel_value": 3,
+        "mode1_gui_channel": 3,
+        "mode1_spike_annotation": "Spike@Ch3",
+        "mode2_label": "Ch3",
+        "rhd2132_channel": 9,
+        "bluebox_channel": 9
+      },
+      {
+        "shared_index": 4,
+        "mode3_lfp_label": "Ch4",
+        "mode3_esa_label": "ESA4",
+        "mode3_raster_label": "Raster4",
+        "mode3_rawchannel_value": 4,
+        "mode1_gui_channel": 4,
+        "mode1_spike_annotation": "Spike@Ch4",
+        "mode2_label": "Ch4",
+        "rhd2132_channel": 10,
+        "bluebox_channel": 6
+      },
+      {
+        "shared_index": 5,
+        "mode3_lfp_label": "Ch5",
+        "mode3_esa_label": "ESA5",
+        "mode3_raster_label": "Raster5",
+        "mode3_rawchannel_value": 5,
+        "mode1_gui_channel": 5,
+        "mode1_spike_annotation": "Spike@Ch5",
+        "mode2_label": "Ch5",
+        "rhd2132_channel": 11,
+        "bluebox_channel": 8
+      },
+      {
+        "shared_index": 6,
+        "mode3_lfp_label": "Ch6",
+        "mode3_esa_label": "ESA6",
+        "mode3_raster_label": "Raster6",
+        "mode3_rawchannel_value": 6,
+        "mode1_gui_channel": 6,
+        "mode1_spike_annotation": "Spike@Ch6",
+        "mode2_label": "Ch6",
+        "rhd2132_channel": 12,
+        "bluebox_channel": 10
+      },
+      {
+        "shared_index": 7,
+        "mode3_lfp_label": "Ch7",
+        "mode3_esa_label": "ESA7",
+        "mode3_raster_label": "Raster7",
+        "mode3_rawchannel_value": 7,
+        "mode1_gui_channel": 7,
+        "mode1_spike_annotation": "Spike@Ch7",
+        "mode2_label": "Ch7",
+        "rhd2132_channel": 13,
+        "bluebox_channel": 4
+      },
+      {
+        "shared_index": 8,
+        "mode3_lfp_label": "Ch8",
+        "mode3_esa_label": "ESA8",
+        "mode3_raster_label": "Raster8",
+        "mode3_rawchannel_value": 8,
+        "mode1_gui_channel": 8,
+        "mode1_spike_annotation": "Spike@Ch8",
+        "mode2_label": "Ch8",
+        "rhd2132_channel": 14,
+        "bluebox_channel": 11
+      },
+      {
+        "shared_index": 9,
+        "mode3_lfp_label": "Ch9",
+        "mode3_esa_label": "ESA9",
+        "mode3_raster_label": "Raster9",
+        "mode3_rawchannel_value": 9,
+        "mode1_gui_channel": 9,
+        "mode1_spike_annotation": "Spike@Ch9",
+        "mode2_label": "Ch9",
+        "rhd2132_channel": 15,
+        "bluebox_channel": 12
+      },
+      {
+        "shared_index": 10,
+        "mode3_lfp_label": "Ch10",
+        "mode3_esa_label": "ESA10",
+        "mode3_raster_label": "Raster10",
+        "mode3_rawchannel_value": 10,
+        "mode1_gui_channel": 10,
+        "mode1_spike_annotation": "Spike@Ch10",
+        "mode2_label": "Ch10",
+        "rhd2132_channel": 16,
+        "bluebox_channel": 13
+      },
+      {
+        "shared_index": 11,
+        "mode3_lfp_label": "Ch11",
+        "mode3_esa_label": "ESA11",
+        "mode3_raster_label": "Raster11",
+        "mode3_rawchannel_value": 11,
+        "mode1_gui_channel": 11,
+        "mode1_spike_annotation": "Spike@Ch11",
+        "mode2_label": "Ch11",
+        "rhd2132_channel": 17,
+        "bluebox_channel": 14
+      },
+      {
+        "shared_index": 12,
+        "mode3_lfp_label": "Ch12",
+        "mode3_esa_label": "ESA12",
+        "mode3_raster_label": "Raster12",
+        "mode3_rawchannel_value": 12,
+        "mode1_gui_channel": 12,
+        "mode1_spike_annotation": "Spike@Ch12",
+        "mode2_label": "Ch12",
+        "rhd2132_channel": 18,
+        "bluebox_channel": 15
+      },
+      {
+        "shared_index": 13,
+        "mode3_lfp_label": "Ch13",
+        "mode3_esa_label": "ESA13",
+        "mode3_raster_label": "Raster13",
+        "mode3_rawchannel_value": 13,
+        "mode1_gui_channel": 13,
+        "mode1_spike_annotation": "Spike@Ch13",
+        "mode2_label": "Ch13",
+        "rhd2132_channel": 19,
+        "bluebox_channel": 17
+      },
+      {
+        "shared_index": 14,
+        "mode3_lfp_label": "Ch14",
+        "mode3_esa_label": "ESA14",
+        "mode3_raster_label": "Raster14",
+        "mode3_rawchannel_value": 14,
+        "mode1_gui_channel": 14,
+        "mode1_spike_annotation": "Spike@Ch14",
+        "mode2_label": "Ch14",
+        "rhd2132_channel": 20,
+        "bluebox_channel": 1
+      },
+      {
+        "shared_index": 15,
+        "mode3_lfp_label": "Ch15",
+        "mode3_esa_label": "ESA15",
+        "mode3_raster_label": "Raster15",
+        "mode3_rawchannel_value": 15,
+        "mode1_gui_channel": 15,
+        "mode1_spike_annotation": "Spike@Ch15",
+        "mode2_label": "Ch15",
+        "rhd2132_channel": 21,
+        "bluebox_channel": 3
+      }
+    ],
+    "mode1_raw_signal": {
+      "edf_label": "Raw",
+      "note": "This signal must be interpreted together with the selected mode1 GUI channel. The selected GUI channel follows the mode3 family mapping.",
+      "selected_channel_map": [
+        { "mode1_gui_channel": 0, "rhd2132_channel": 22, "bluebox_channel": 16 },
+        { "mode1_gui_channel": 1, "rhd2132_channel": 23, "bluebox_channel": 2 },
+        { "mode1_gui_channel": 2, "rhd2132_channel": 8, "bluebox_channel": 7 },
+        { "mode1_gui_channel": 3, "rhd2132_channel": 9, "bluebox_channel": 9 },
+        { "mode1_gui_channel": 4, "rhd2132_channel": 10, "bluebox_channel": 6 },
+        { "mode1_gui_channel": 5, "rhd2132_channel": 11, "bluebox_channel": 8 },
+        { "mode1_gui_channel": 6, "rhd2132_channel": 12, "bluebox_channel": 10 },
+        { "mode1_gui_channel": 7, "rhd2132_channel": 13, "bluebox_channel": 4 },
+        { "mode1_gui_channel": 8, "rhd2132_channel": 14, "bluebox_channel": 11 },
+        { "mode1_gui_channel": 9, "rhd2132_channel": 15, "bluebox_channel": 12 },
+        { "mode1_gui_channel": 10, "rhd2132_channel": 16, "bluebox_channel": 13 },
+        { "mode1_gui_channel": 11, "rhd2132_channel": 17, "bluebox_channel": 14 },
+        { "mode1_gui_channel": 12, "rhd2132_channel": 18, "bluebox_channel": 15 },
+        { "mode1_gui_channel": 13, "rhd2132_channel": 19, "bluebox_channel": 17 },
+        { "mode1_gui_channel": 14, "rhd2132_channel": 20, "bluebox_channel": 1 },
+        { "mode1_gui_channel": 15, "rhd2132_channel": 21, "bluebox_channel": 3 }
+      ]
+    },
+    "non_neural_edf_signals": [
+      {
+        "edf_context": "sensor.edf",
+        "edf_label": "all sensor channels",
+        "rhd2132_channel": null,
+        "bluebox_channel": null,
+        "maps_to_neural_electrode": false
+      },
+      {
+        "edf_context": "mode3_raw.edf",
+        "edf_label": "Alignment",
+        "rhd2132_channel": null,
+        "bluebox_channel": null,
+        "maps_to_neural_electrode": false
+      }
+    ]
+  }
+}

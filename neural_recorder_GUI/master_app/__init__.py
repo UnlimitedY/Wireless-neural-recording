@@ -1,0 +1,1 @@
+"""Master console application package."""

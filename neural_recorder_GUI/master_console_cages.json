@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cage_1",
+    "label": "Cage 1",
+    "profile_path": "Cage_Config/config_cage1.json",
+    "enabled": true,
+    "auto_start": false
+  },
+  {
+    "id": "cage_2",
+    "label": "Cage 2",
+    "profile_path": "Cage_Config/config_cage2.json",
+    "enabled": true,
+    "auto_start": false
+  },
+  {
+    "id": "cage_3",
+    "label": "Cage 3",
+    "profile_path": "Cage_Config/config_cage3.json",
+    "enabled": true,
+    "auto_start": false
+  }
+]

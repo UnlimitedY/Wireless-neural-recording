@@ -1,0 +1,113 @@
+general:
+  timezone: Asia/Shanghai
+  animal_id: BW08
+  output_dir: "./outputs/BW08"
+  light_on_hour: 6.0
+  light_off_hour: 18.0
+
+io:
+  lfp_sample_rate_hz: 1000
+  imu_target_rate_hz: 100
+  store_raw_lfp: true
+  compression: gzip
+  lfp_chunk_seconds: 10
+  imu_chunk_seconds: 10
+
+preprocess:
+  apply_lfp_phase_compensation: false
+  rereference_method: adjacent_bipolar
+  adjacent_bipolar_edge_mode: repeat_last_pair
+  median_reference: false
+  notch_enable: false
+  notch_freq_hz: 50.0
+  short_gap_interpolate_max_s: 2.0
+
+missing_data:
+  lfp_missing_threshold: -1000
+  sensor_missing_threshold: -10
+  valid_fraction_threshold: 0.8
+
+features:
+  feature_window_s: 60.0
+  feature_step_s: 60.0
+  spectral_entropy_enable: true
+  welch_nperseg: 2048
+  welch_noverlap: 1024
+  bands:
+    delta: [1, 4.0]
+    theta: [4.0, 12.0]
+    gamma: [30.0, 55.0]
+
+activity:
+  activity_metric_method: diff_mag_mean
+  moving_activity_quantile: 0.6
+  inactive_activity_quantile: 0.2
+
+working:
+  working_merge_gap_s: 5.0
+  working_min_bout_s: 60.0
+  working_tail_exclude_s: 30.0
+  working_window_min_fraction: 0.5
+
+slice_build:
+  filename_prefilter_margin_hours: 36.0
+
+states:
+  representative_channel_mode: auto
+  representative_channel_index: null
+  representative_channel_selection_step_s: 1.0
+  classification_use_raw_signal: true
+  classification_lowpass_enable: true
+  classification_lowpass_order: 4
+  classification_lowpass_cutoff_hz: 100.0
+  spectrogram_target_fs_hz: 1250.0
+  spectrogram_freq_min_hz: 1.0
+  spectrogram_freq_max_hz: 100.0
+  spectrogram_n_freq_bins: 50
+  scoring_window_s: 10.0
+  scoring_step_s: 10.0
+  imu_proxy_method: rms_centered_magnitude
+  imu_smoothing_sigma_s: 10.0
+  rem_highfreq_low_hz: 80.0
+  rem_highfreq_high_hz: 250.0
+  threshold_hist_bins: 200
+  threshold_hist_bins_auto: true
+  threshold_hist_bins_min: 40
+  threshold_hist_bins_max: 320
+  threshold_hist_smoothing_sigma_bins: 2.0
+  threshold_min_peak_prominence_fraction: 0.05
+  threshold_min_peak_distance_fraction: 0.15
+  min_wake_episode_s: 420.0
+  final_review_hour_buffer_s: 300.0
+  unknown_if_missing_imu: true
+  analysis_states:
+    - Wake
+    - NREM
+    - REM
+    - Working
+  occupancy_states:
+    - Wake
+    - MiniWake
+    - NREM
+    - REM
+    - Working
+
+rhythm:
+  hour_bin_s: 3600.0
+  state_reference_normalization_enable: true
+  state_reference_normalization_method: divide_by_daily_state_band_mean
+  average_channel_groups:
+    - [0, 1]
+    - [2, 3, 4, 5,6,7]
+    - [8, 9, 10, 11, 12]
+    - [13, 14, 15]
+  average_group_names:
+    - MOs
+    - ACAd
+    - PL
+    - ILA
+
+report:
+  report_output_dir: ""
+  plot_dpi: 120
+  embed_png: true

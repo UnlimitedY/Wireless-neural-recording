@@ -1,0 +1,9 @@
+{
+  "name": "lenovo_personal_cloud",
+  "protocol": "mounted",
+  "mount_point": "/Volumes/LenovoPersonalCloud",
+  "data_root": "Wireless_24_7Recording/Data",
+  "remote_url": "smb://192.168.1.10/your_share_name",
+  "username_env": "LENOVO_CLOUD_USER",
+  "password_env": "LENOVO_CLOUD_PASSWORD"
+}

@@ -1,0 +1,155 @@
+// To get started, press Ctrl+Space to bring up the completion menu and view the available nodes.
+
+// You can also use the buttons in the sidebar to perform actions on nodes.
+// Actions currently available include:
+
+// * Enabling / disabling the node
+// * Adding the bus to a bus
+// * Removing the node
+// * Connecting ADC channels
+
+// For more help, browse the DeviceTree documentation at https://docs.zephyrproject.org/latest/guides/dts/index.html
+// You can also visit the nRF DeviceTree extension documentation at https://docs.nordicsemi.com/bundle/nrf-connect-vscode/page/guides/ncs_configure_app.html#devicetree-support-in-the-extension
+// To get started, press Ctrl+Space to bring up the completion menu and view the available nodes.
+
+// You can also use the buttons in the sidebar to perform actions on nodes.
+// Actions currently available include:
+
+// * Enabling / disabling the node
+// * Adding the bus to a bus
+// * Removing the node
+// * Connecting ADC channels
+
+// For more help, browse the DeviceTree documentation at https://docs.zephyrproject.org/latest/guides/dts/index.html
+// You can also visit the nRF DeviceTree extension documentation at https://docs.nordicsemi.com/bundle/nrf-connect-vscode/page/guides/ncs_configure_app.html#devicetree-support-in-the-extension
+
+// pinctrl
+&pinctrl {
+	uart0_default: uart0_default {
+		group1 {
+			psels = <NRF_PSEL(UART_TX, 0, 6)>,
+				<NRF_PSEL(UART_RTS, 0, 9)>;
+		};
+		group2 {
+			psels = <NRF_PSEL(UART_RX, 0, 5)>,
+				<NRF_PSEL(UART_CTS, 0, 7)>;
+			bias-pull-up;
+		};
+	};
+
+	uart0_sleep: uart0_sleep {
+		group1 {
+			psels = <NRF_PSEL(UART_TX, 0, 6)>,
+				<NRF_PSEL(UART_RX, 0, 9)>,
+				<NRF_PSEL(UART_RTS, 0, 5)>,
+				<NRF_PSEL(UART_CTS, 0, 7)>;
+			low-power-enable;
+		};
+	};
+
+	// i2c0_default: i2c0_default {
+	// 	group1 {
+	// 		psels = <NRF_PSEL(TWIM_SDA, 0, 22)>,
+	// 			<NRF_PSEL(TWIM_SCL, 0, 25)>;
+	// 			// nordic,drive-mode = <NRF_DRIVE_S0D1>;
+	// 			// bias-pull-up; // internal pull-up is too weak, only for 100kHz or lower  
+	// 	};
+	// };
+
+	// i2c0_sleep: i2c0_sleep {
+	// 	group1 {
+	// 		psels = <NRF_PSEL(TWIM_SDA, 0, 22)>,
+	// 			<NRF_PSEL(TWIM_SCL, 0, 25)>;
+	// 		low-power-enable;
+	// 	};
+	// };
+
+	spi1_default: spi1_default {
+		group1 {
+			psels = <NRF_PSEL(SPIM_SCK, 0, 1)>,
+				<NRF_PSEL(SPIM_MOSI, 0, 8)>,
+				<NRF_PSEL(SPIM_MISO, 1, 9)>;
+		};
+	};
+
+	spi1_sleep: spi1_sleep {
+		group1 {
+			psels = <NRF_PSEL(SPIM_SCK, 0, 1)>,
+				<NRF_PSEL(SPIM_MOSI, 0, 8)>,
+				<NRF_PSEL(SPIM_MISO, 1, 9)>;
+			low-power-enable;
+		};
+	};
+
+
+};
+
+&gpiote {
+    status = "okay";
+};
+
+&gpio0 {
+	status = "okay";
+	gpio-reserved-ranges =  <6 1>, <8 3>, <17 7>;
+	gpio-line-names = "AREF", "A0", "A1", "RTS", "TXD",
+		"CTS", "RXD", "NFC1", "NFC2", "BUTTON1", "BUTTON2", "LED1",
+		"LED2", "LED3", "LED4", "QSPI CS", "RESET", "QSPI CLK",
+		"QSPI DIO0", "QSPI DIO1", "QSPI DIO2", "QSPI DIO3","BUTTON3",
+		"BUTTON4", "SDA", "SCL", "A2", "A3", "A4", "A5";
+};
+
+&gpio1 {
+	status = "okay";
+};
+
+
+&uart0 {
+	compatible = "nordic,nrf-uarte";
+	status = "okay";
+	current-speed = <115200>;
+	pinctrl-0 = <&uart0_default>;
+	pinctrl-1 = <&uart0_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+
+// &i2c0 {
+// 	compatible = "nordic,nrf-twim"; // twi; twim; twis
+// 	/* Cannot be used together with spi0. */
+// 	status = "okay";
+// 	clock-frequency = <I2C_BITRATE_STANDARD>;
+// 	pinctrl-0 = <&i2c0_default>;
+// 	pinctrl-1 = <&i2c0_sleep>;
+// 	pinctrl-names = "default", "sleep";
+	
+// 	// LC: LC@0B{
+// 	// 	compatible = "i2c-device";
+// 	// 	reg = < 0x0B >;
+// 	// 	label = "LC";
+// 	// };
+	
+// };
+
+&spi1 {
+	compatible = "nordic,nrf-spim";
+	status = "okay";
+	pinctrl-0 = <&spi1_default>;
+	pinctrl-1 = <&spi1_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+zephyr_udc0: &usbd {
+	compatible = "nordic,nrf-usbd";
+	status = "okay";
+};
+
+// &led0 {
+// 	gpios = <&gpio0 1 GPIO_ACTIVE_LOW>;
+// };
+&wdt {
+	status = "okay";
+};
+
+&rtc0 {
+	status="okay";
+};

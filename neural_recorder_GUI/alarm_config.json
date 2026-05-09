@@ -1,0 +1,24 @@
+{
+  "enabled": false,
+  "check_interval_minutes": 10,
+  "thresholds": {
+    "battery_rsoc_critical_percent": 5.0,
+    "packet_loss_critical_percent": 1.0,
+    "status_stale_seconds": 120.0
+  },
+  "email": {
+    "enabled": false,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "use_tls": true,
+    "use_ssl": false,
+    "sender_email": "your_sender@example.com",
+    "smtp_username": "your_sender@example.com",
+    "sender_password_env": "NEURAL_RECORDER_ALARM_EMAIL_PASSWORD",
+    "sender_name": "Neural Recorder Alarm",
+    "recipient_emails": [
+      "your_alert@example.com"
+    ],
+    "subject_prefix": "[Neural Recorder Alarm]"
+  }
+}

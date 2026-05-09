@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "h5_path": "F:\\PreProcessedData\\Daily_LFP_Data_Mode0\\BW08\\outputs\\BW08_slice_001_2026-04-17_20260417-000000_slice_lfp_rhythm.h5",
+  "hourly_csv": "F:\\PreProcessedData\\Daily_LFP_Data_Mode0\\BW08\\BW08_slice_001_2026-04-17_20260417-000000_slice_lfp_rhythm_longitudinal_hourly_table.csv",
+  "effect_csv": "F:\\PreProcessedData\\Daily_LFP_Data_Mode0\\BW08\\BW08_slice_001_2026-04-17_20260417-000000_slice_lfp_rhythm_longitudinal_effect_summary.csv",
+  "summary_json": "F:\\PreProcessedData\\Daily_LFP_Data_Mode0\\BW08\\BW08_slice_001_2026-04-17_20260417-000000_slice_lfp_rhythm_longitudinal_summary.json",
+  "figure_paths": [
+    "F:\\PreProcessedData\\Daily_LFP_Data_Mode0\\BW08\\BW08_slice_001_2026-04-17_20260417-000000_slice_lfp_rhythm_longitudinal_behavior_timeline.png",
+    "F:\\PreProcessedData\\Daily_LFP_Data_Mode0\\BW08\\BW08_slice_001_2026-04-17_20260417-000000_slice_lfp_rhythm_longitudinal_behavior_effects.png",
+    "F:\\PreProcessedData\\Daily_LFP_Data_Mode0\\BW08\\BW08_slice_001_2026-04-17_20260417-000000_slice_lfp_rhythm_longitudinal_circadian_heatmap.png"
+  ],
+  "n_hours": 23,
+  "n_targets": 0,
+  "top_effects": [],
+  "research_question": "PFC LFP long-term dynamics as a function of circadian phase, sleep/wake/cognitive state, task rule, learning stage, and choice bias."
+}

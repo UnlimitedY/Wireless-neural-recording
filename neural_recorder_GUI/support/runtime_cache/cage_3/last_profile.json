@@ -1,0 +1,178 @@
+{
+  "cage_index": 3,
+  "main_serial_port": "COM27",
+  "rf_serial_port": "COM24",
+  "habits_serial_port": "COM6",
+  "camera_id": 1,
+  "battery_capacity_mAh": 24.0,
+  "lfp_save_path": "F:\\FormalData\\ExperimentData\\BW13\\Neural\\Mode0\\BW13",
+  "mode3_save_path": "F:\\FormalData\\ExperimentData\\BW13\\Neural\\Mode3\\BW13",
+  "mode1_save_path": "F:\\FormalData\\ExperimentData\\BW13\\Neural\\Mode1\\BW13",
+  "mode2_save_path": "F:\\FormalData\\ExperimentData\\BW13\\Neural\\Mode2\\BW13",
+  "video_save_path": "F:\\FormalData\\ExperimentData\\BW13\\Video\\BW13",
+  "mice_id_directory": "F:\\FormalData\\ExperimentData\\BW13\\GUIBW13",
+  "auto_connect_main_serial": true,
+  "auto_connect_rf": true,
+  "auto_connect_habits": true,
+  "profile_path": "E:\\SyncFoldFromMyMac\\neural_recorder_GUI\\Cage_Config\\config_cage3.json",
+  "charging_guard": {
+    "enabled": true,
+    "roi_norm": [
+      0.1,
+      0.5,
+      0.3,
+      0.2
+    ],
+    "dark_threshold": 90,
+    "day_dark_threshold": 90,
+    "night_dark_threshold": 90,
+    "scene_brightness_threshold": 80,
+    "min_area_ratio": 0.3,
+    "check_interval_ms": 10000,
+    "required_hits": 6,
+    "warning_duration_ms": 3000
+  },
+  "mode3_thresholds_fallback_path": "E:\\SyncFoldFromMyMac\\neural_recorder_GUI\\support\\runtime_cache\\cage_3\\mode3_thresholds.json",
+  "gui_update_intervals_by_mode": {
+    "mode0": 80,
+    "mode1": 8,
+    "mode2": 28,
+    "mode3": 17
+  },
+  "gui_update_interval_stats": {
+    "mode0": {
+      "interval": 80,
+      "best_interval": 9,
+      "best_loss_percent": 0.0,
+      "last_loss_percent": 0.0,
+      "last_expected_packets": 0,
+      "updated_epoch": 0.0
+    },
+    "mode1": {
+      "interval": 8,
+      "best_interval": 8,
+      "best_loss_percent": 0.0,
+      "last_loss_percent": 0.0,
+      "last_expected_packets": 0,
+      "updated_epoch": 0.0
+    },
+    "mode2": {
+      "interval": 28,
+      "best_interval": 28,
+      "best_loss_percent": null,
+      "last_loss_percent": 0.0,
+      "last_expected_packets": 0,
+      "updated_epoch": 0.0
+    },
+    "mode3": {
+      "interval": 17,
+      "best_interval": 17,
+      "best_loss_percent": 0.0,
+      "last_loss_percent": 0.0,
+      "last_expected_packets": 0,
+      "updated_epoch": 0.0
+    }
+  },
+  "spike_filter_enabled": false,
+  "spike_filter_low_cut_hz": 300.0,
+  "spike_filter_high_cut_hz": 3000.0,
+  "spike_filter_sample_rate_hz": 12500.0,
+  "gui_update_intervals_by_stream": {
+    "mode0_lfp": 80,
+    "mode1_raw": 8,
+    "mode2_raw": 28,
+    "mode3_lfp_esa": 17,
+    "mode3_raw": 11
+  },
+  "gui_update_interval_stream_stats": {
+    "mode0_lfp": {
+      "interval": 80,
+      "best_interval": 9,
+      "best_loss_percent": 0.0,
+      "last_loss_percent": 0.0,
+      "loss_ewma_percent": 5e-324,
+      "last_expected_packets": 0,
+      "stable_windows": 619,
+      "updated_epoch": 0.0,
+      "last_action": "init",
+      "pressure_reason": ""
+    },
+    "mode1_raw": {
+      "interval": 8,
+      "best_interval": 8,
+      "best_loss_percent": 0.0,
+      "last_loss_percent": 0.0,
+      "loss_ewma_percent": 0.003352426218726926,
+      "last_expected_packets": 0,
+      "stable_windows": 509,
+      "updated_epoch": 0.0,
+      "last_action": "init",
+      "pressure_reason": ""
+    },
+    "mode2_raw": {
+      "interval": 28,
+      "best_interval": 28,
+      "best_loss_percent": null,
+      "last_loss_percent": 0.0,
+      "loss_ewma_percent": 0.0,
+      "last_expected_packets": 0,
+      "stable_windows": 0,
+      "updated_epoch": 0.0,
+      "last_action": "init",
+      "pressure_reason": ""
+    },
+    "mode3_lfp_esa": {
+      "interval": 17,
+      "best_interval": 17,
+      "best_loss_percent": 0.0,
+      "last_loss_percent": 0.0,
+      "loss_ewma_percent": 9.357836696509775e-12,
+      "last_expected_packets": 0,
+      "stable_windows": 46,
+      "updated_epoch": 0.0,
+      "last_action": "init",
+      "pressure_reason": ""
+    },
+    "mode3_raw": {
+      "interval": 11,
+      "best_interval": 11,
+      "best_loss_percent": 0.0,
+      "last_loss_percent": 0.0,
+      "loss_ewma_percent": 6.732062226480758e-122,
+      "last_expected_packets": 0,
+      "stable_windows": 0,
+      "updated_epoch": 0.0,
+      "last_action": "init",
+      "pressure_reason": ""
+    }
+  },
+  "gui_update_interval_control": {
+    "target_fps_enabled": true,
+    "target_fps_by_stream": {
+      "mode0_lfp": 12.0,
+      "mode1_raw": 12.0,
+      "mode2_raw": 12.0,
+      "mode3_lfp_esa": 12.0,
+      "mode3_raw": 12.0
+    }
+  },
+  "detail_display_tuning": {
+    "strategy": "balanced",
+    "factors": {
+      "lfp": 1,
+      "spike": 1,
+      "mode2": 1,
+      "mode3_lfp_esa": 4,
+      "mode3_raw": 8
+    },
+    "last_action": {
+      "lfp": "init",
+      "spike": "decrease_stable",
+      "mode2": "init",
+      "mode3_lfp_esa": "decrease_coupled_stable",
+      "mode3_raw": "hold"
+    },
+    "mode3_stable_windows": 0,
+    "updated_epoch": 1778148793.2916272
+  }
+}

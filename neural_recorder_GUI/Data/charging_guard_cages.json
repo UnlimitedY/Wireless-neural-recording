@@ -1,0 +1,47 @@
+{
+  "active_cage": "cage1",
+  "presets": {
+    "cage1": {
+      "enabled": false,
+      "roi_norm": [
+        0.1,
+        0.5,
+        0.3,
+        0.2
+      ],
+      "dark_threshold": 90,
+      "min_area_ratio": 0.3,
+      "check_interval_ms": 10000,
+      "required_hits": 6,
+      "warning_duration_ms": 3000
+    },
+    "cage2": {
+      "enabled": false,
+      "roi_norm": [
+        0.1,
+        0.5,
+        0.3,
+        0.2
+      ],
+      "dark_threshold": 90,
+      "min_area_ratio": 0.3,
+      "check_interval_ms": 10000,
+      "required_hits": 6,
+      "warning_duration_ms": 3000
+    },
+    "cage3": {
+      "enabled": false,
+      "roi_norm": [
+        0.1,
+        0.5,
+        0.3,
+        0.2
+      ],
+      "dark_threshold": 90,
+      "min_area_ratio": 0.3,
+      "check_interval_ms": 10000,
+      "required_hits": 6,
+      "warning_duration_ms": 3000
+    }
+  }
+}

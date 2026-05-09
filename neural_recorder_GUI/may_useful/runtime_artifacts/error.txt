@@ -1,0 +1,3 @@
+Error, filesize does not match with the calculated filesize based on the parameters
+in the header. Filesize is 928398 and filesize according to header is 836798.
+You can repair the file with the header editor, have a look at the manual for the details.
